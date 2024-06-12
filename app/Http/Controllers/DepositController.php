@@ -217,7 +217,7 @@ class DepositController extends Controller {
                 ChildInvestmentPlan::where('id', $plan_details->id)->increment('total_deposited', $request->amount);
                 User::where('id', $user_id)->decrement('total_balance', $request->amount);
                 User::where('id', $user_id)->increment('currently_invested', $request->amount);
-                $wallet = MainWallet::find(1);
+                $wallet = MainWallet::find(7);
                 Transactions::insert([
                     'amount' => $request->amount,
                     'user_id' => $user_id,

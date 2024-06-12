@@ -361,7 +361,7 @@ width: 10em;
 }
 }
 </style>
-<form method="get" data-snippet="s_searchbar_input" id="form_search" class="o_searchbar_form s_searchbar_input" action="/website/search" data-name="Search">
+<form method="get" data-snippet="s_searchbar_input" id="form_search" class="o_searchbar_form s_searchbar_input" action="/website/search" data-name="Search" style="display: none;">
 <div role="search" id="div_search" class="input-group ms-3 search_div">
 <input type="search" id="input_search" name="search" class="search-query form-control oe_search_box None" placeholder="Search..." data-search-type="all" data-limit="5" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc" autocomplete="off">
 <button type="submit" aria-label="Search" title="Search" class="btn oe_search_button btn-primary">

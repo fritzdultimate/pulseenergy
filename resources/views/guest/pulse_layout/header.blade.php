@@ -285,6 +285,12 @@ margin-left: -80px;
     <span>Login</span>
   </a>
 </li>
+
+<li class="nav-item dropdown  ">
+  <a href="/plans" class="nav-link">
+    <span>Plans</span>
+  </a>
+</li>
 <li class="nav-item dropdown  " style="display: none;">
 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
 <span>Apps</span>

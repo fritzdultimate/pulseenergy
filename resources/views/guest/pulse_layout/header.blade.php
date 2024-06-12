@@ -244,21 +244,6 @@ margin-left: -80px;
 <span>Biodiversity</span>
 </a>
 </li>
-<li class="">
-<a role="menuitem" href="/anti-bribery-policy" class="dropdown-item ">
-<span>Anti Bribery Policy</span>
-</a>
-</li>
-<li class="">
-<a role="menuitem" href="/whistle-blowing-system" class="dropdown-item ">
-<span>Whistle Blowing System</span>
-</a>
-</li>
-<li class="">
-<a role="menuitem" href="/csirt" class="dropdown-item ">
-<span>CSIRT</span>
-</a>
-</li>
 </ul>
 </li>
 <li class="nav-item dropdown  ">

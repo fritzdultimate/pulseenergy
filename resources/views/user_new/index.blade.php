@@ -229,7 +229,7 @@
                                 <div class="nk-refwg-head g-3">
                                     <div class="nk-refwg-title">
                                         <h5 class="title">Refer Us & Earn</h5>
-                                        <div class="title-sub">Use the bellow link to invite your friends.</div>
+                                        <div class="title-sub">Use the bellow code to invite your friends.</div>
                                     </div>
                                     <div class="nk-refwg-action">
                                         <a href="#" class="btn btn-primary">Invite</a>
@@ -244,7 +244,7 @@
                                         <div class="form-icon">
                                             <em class="icon ni ni-link-alt"></em>
                                         </div>
-                                        <input type="text" class="form-control copy-text" id="refUrl" value="https://{{ env('APP_NAME') }}.com/?ref={{ $user->uid }}">
+                                        <input type="text" class="form-control copy-text" id="refUrl" value="{{ $user->uid }}">
                                     </div>
                                 </div>
                             </div>

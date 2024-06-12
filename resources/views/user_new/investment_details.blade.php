@@ -116,7 +116,7 @@
                           <div class="lead-text">{{ get_day_format($deposit->approved_at) }}</div>
                         </li>
                         <li>
-                          <div class="sub-text">Term end at</div>
+                          <div class="sub-text">Term end at</div> 
                           <div class="lead-text">{{ get_day_format(addDaysToDate($deposit->approved_at, $deposit->plan->duration)) }}</div>
                         </li>
                         <li>

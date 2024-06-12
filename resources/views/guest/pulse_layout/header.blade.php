@@ -264,21 +264,26 @@ margin-left: -80px;
 </ul>
 </li>
 <li class="nav-item dropdown  ">
-<a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
-<span>Tender Info</span>
-</a>
-<ul class="dropdown-menu" role="menu">
-<li class="">
-<a role="menuitem" href="/investor-registration" class="dropdown-item ">
-<span>Investor Registration</span>
-</a>
-</li>
-<li class="">
-  <a role="menuitem" href="/login" class="dropdown-item ">
-  <span>Website Login</span>
+  <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
+  <span>Tender Info</span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+  <li class="">
+  <a role="menuitem" href="/investor-registration" class="dropdown-item ">
+  <span>Investor Registration</span>
   </a>
   </li>
-</ul>
+  <li class="">
+    <a role="menuitem" href="/login" class="dropdown-item ">
+    <span>Website Login</span>
+    </a>
+    </li>
+  </ul>
+</li>
+<li class="nav-item dropdown  ">
+  <a href="/login" class="nav-link">
+    <span>Login</span>
+  </a>
 </li>
 <li class="nav-item dropdown  " style="display: none;">
 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">

@@ -78,6 +78,7 @@ class DepositController extends Controller {
            'remaining_duration' => $plan_models->duration,
            'created_at' => date('Y-m-d H:i:s'),
            'updated_at' => date('Y-m-d H:i:s'),
+           'user_wallet_id' => 6
        ];
 
         $create_deposit = $deposit->create($data);

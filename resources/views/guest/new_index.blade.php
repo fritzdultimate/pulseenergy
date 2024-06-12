@@ -73,7 +73,7 @@ Jabung&nbsp;Continues Its 2024 Program</span></font></span></b></p><p><font clas
                 <div class="oe_unremovable container">
                     <div class="row content">
                         <div class="carousel-content o_colored_level pb16 o_animate o_animate_both_scroll offset-lg-1 col-lg-8 o_anim_zoom_in o_visible o_animated" style="animation-name: o_anim_zoom_in; visibility: visible; animation-play-state: running;">
-                            <p><span style="font-size: 40px;"><font class="text-white">{{ env('APP_NAME') }} Continues 3D &amp; 2D Seismic Survey in Jabung Block</font></span></p><p><font class="text-o-color-4">
+                            <p><span style="font-size: 45px;"><font class="text-white">{{ env('APP_NAME') }} Continues 3D &amp; 2D Seismic Survey in Jabung Block</font></span></p><p><font class="text-o-color-4">
 <span style="font-size: 18px;">
 SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} International Jabung Ltd. (PCJL) continue the process of 3D &amp; 2D Seismic Survey “Eastern Jabung” in January 2024. PCJL has completed several parameter tests and public socialization to residents around the survey area in five districts in East Tanjung Jabung.
 

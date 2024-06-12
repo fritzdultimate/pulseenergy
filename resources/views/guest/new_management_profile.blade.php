@@ -72,7 +72,7 @@
         </div>
     </div>
 </section><section class="s_text_block o_colored_level o_cc o_cc2 pb16 pt16" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
-    <div class="s_allow_columns container">
+    <div class="s_allow_columns container" style="display: none;">
         <p class="o_default_snippet_text" style="text-align: center;"><em><span style="font-size: 14px;">*</span><strong><span style="font-size: 14px;">Double click </span></strong><span style="font-size: 14px;">on photos to read more detailed profiles.</span></em><br></p>
     </div>
 </section></div>

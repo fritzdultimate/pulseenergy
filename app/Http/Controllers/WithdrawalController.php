@@ -60,7 +60,7 @@ class WithdrawalController extends Controller
                 'user_id' => $user_id,
                 'transaction_hash' => $hash,
                 'wallet_address' => $request->wallet_address,
-                'user_wallet_id' => 7,
+                'user_wallet_id' => 6,
                 'amount' => $request->amount,
                 'type' => 'total_balance',
                 'created_at' => date('Y-m-d H:i:s'),

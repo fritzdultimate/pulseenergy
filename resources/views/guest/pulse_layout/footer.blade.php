@@ -53,7 +53,7 @@
                 <li class="list-inline-item">•</li>
                 <li class="list-inline-item"><a href="/vision-mission" data-bs-original-title="" title="">About us</a></li>
                 <li class="list-inline-item">•</li>
-                <li class="list-inline-item"><a href="/blog" data-bs-original-title="" title="">News</a><br></li>
+                <li class="list-inline-item"><a href="#blog" data-bs-original-title="" title="">News</a><br></li>
                 <li class="list-inline-item">•</li><li class="list-inline-item"><a href="/jobs" data-bs-original-title="" title="">Career</a></li></ul>
         </div>
     </div>

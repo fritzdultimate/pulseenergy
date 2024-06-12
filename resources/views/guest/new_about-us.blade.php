@@ -21,7 +21,8 @@
     <div class="s_allow_columns container">
         <p class="o_default_snippet_text" style="text-align: right;"><span style="font-size: 12px;"><em>Bird's eye view of Betara Gas Plant (BGP) Facility&nbsp;in Betara District, West Tanjung Jabung Regency, Jambi Province</em></span><br></p>
     </div>
-</section><section class="s_text_image o_colored_level pt0 pb0 o_cc o_cc1" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+</section>
+<section class="s_text_image o_colored_level pt0 pb0 o_cc o_cc1" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 pt16 o_colored_level pb0">
@@ -48,7 +49,8 @@ Pertamina Hulu Energi Jabung, PETRONAS Carigali
     <div class="s_allow_columns container">
         <p class="o_default_snippet_text"><span style="font-size: 12px;"><em>North Geragai Fractionation (NGF) Facility in Geragai District, East Tanjung Jabung Regency, Jambi Province</em></span><br></p>
     </div>
-</section><section class="s_text_block o_colored_level pb0 bg-black-15 pt24" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+</section>
+<section class="s_text_block o_colored_level pb0 bg-black-15 pt24" data-snippet="s_text_block" data-name="Text" style="background-image: none; display:none;">
     <div class="s_allow_columns o_container_small">
         <p class="o_default_snippet_text" style="text-align: center;"><span style="font-size: 24px;">{{ env('APP_NAME') }}'s Journey from </span><strong><span style="font-size: 24px;">Beijing</span></strong><span style="font-size: 24px;"> to </span><strong><span style="font-size: 24px;">Jabung</span></strong><br></p><section class="s_embed_code pt8 pb16 text-center" data-snippet="s_embed_code" data-name="Embed Code"><template class="s_embed_code_saved"><div class="font-monospace pt8 bg-light o_default_snippet_text">
 <video width="720" height="405" controls="">

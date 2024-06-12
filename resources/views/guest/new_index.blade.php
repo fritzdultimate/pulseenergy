@@ -37,7 +37,7 @@
                     <div class="row content">
                         <div class="carousel-content o_colored_level o_animate o_anim_zoom_in o_animate_both_scroll pb56 offset-lg-1 col-lg-8 pt0" style="animation-name: o_anim_zoom_in; visibility: visible; animation-play-state: paused;">
                              <p><span style="font-size: 62px;"><font class="text-o-color-4">{{ env('APP_NAME') }}&nbsp;'Ready to Run' to Develop Jabung Until 2043</font></span></p><p><font class="text-o-color-3" style="background-color: inherit;">In a media interview on the sidelines of IPA Convex 2024, {{ env('APP_NAME') }} Indonesia President Director Qian Mingyang said that&nbsp;Jabung is an important part of the upstream oil and gas investment in Indonesia. " "Jabung is our strategic operation and we will continue the operation by investing more and seeking more opportunities," he said.&nbsp;</font><br></p><p>
-                                <a href="/register" class="mb-2 btn btn-primary rounded-circle" data-bs-original-title="" title=""><font style="background-color: inherit;">Register</font></a><br></p>
+                                <a href="/register" class="mb-2 btn btn-primary rounded-circle" data-bs-original-title="" title=""><font style="background-color: inherit;">Sign Up</font></a><br></p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ Jabung&nbsp;Continues Its 2024 Program</span></font></span></b></p><p><font clas
 <span style="font-size: 18px;">
 SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} International Jabung Ltd. (PCJL) continue the process of 3D &amp; 2D Seismic Survey “Eastern Jabung” in January 2024. PCJL has completed several parameter tests and public socialization to residents around the survey area in five districts in East Tanjung Jabung.
 
-</span></font><br></p><p><a class="btn btn-primary rounded-circle" href="/register" data-bs-original-title="" title="" target="_blank">Register</a></p>
+</span></font><br></p><p><a class="btn btn-primary rounded-circle" href="/register" data-bs-original-title="" title="" target="_blank">Sign Up</a></p>
                         </div>
                     </div>
                 </div>

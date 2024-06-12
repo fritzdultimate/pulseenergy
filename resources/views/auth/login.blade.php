@@ -16,7 +16,7 @@
         <div class="Analyst_bo container bg-primar pb-5" data-v-1ba9f06e="" align="center">
             <div class="row justify-content-center p-3 p-md-0">
                 <div class="col-md-6 login-container py-4 p-3 p-sm-4 p-md-5">
-                    <h5 class="mx-3 page-alert h5 mb-4 text-center">Enterr your details to login</h5>
+                    <h5 class="mx-3 page-alert h5 mb-4 text-center">Enter your details to login</h5>
 
                     <div class="mx-3">
                         @include('user.layouts.errors')

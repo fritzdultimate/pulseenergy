@@ -881,7 +881,8 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
             </div>
         </div>
     </div>
-</section><section class="s_web_gallery_snippet o_colored_level pt24 pb24 oe_img_bg o_bg_img_center" data-snippet="s_web_gallery_snippet" data-name="Web Gallery" style="background-image: url(&quot;https://www.petrochina.co.id/web/image/2942-4eee43da/Betaragsplns-0024.jpg&quot;);" data-original-id="2744" data-original-src="https://www.petrochina.co.id/web/image/2744-17ffad2a/Betaragsplns-0024.jpg" data-mimetype="image/jpeg" data-resize-width="1920" data-gl-filter="custom" data-filter-options="{&quot;brightness&quot;:&quot;-50&quot;}">
+</section>
+<section class="s_web_gallery_snippet o_colored_level pt24 pb24 oe_img_bg o_bg_img_center" data-snippet="s_web_gallery_snippet" data-name="Web Gallery" style="background-image: url(&quot;https://www.petrochina.co.id/web/image/2942-4eee43da/Betaragsplns-0024.jpg&quot;); display: none;" data-original-id="2744" data-original-src="https://www.petrochina.co.id/web/image/2744-17ffad2a/Betaragsplns-0024.jpg" data-mimetype="image/jpeg" data-resize-width="1920" data-gl-filter="custom" data-filter-options="{&quot;brightness&quot;:&quot;-50&quot;}">
   <div class="s_allow_columns container">
       <h1 style="text-align: center;"><font class="text-o-color-4"><span style="font-size: 48px;">Video Gallery</span></font></h1><p style="text-align: center;"><br></p>
   </div>

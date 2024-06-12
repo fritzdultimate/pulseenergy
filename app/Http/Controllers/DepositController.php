@@ -200,7 +200,7 @@ class DepositController extends Controller {
                 'user_id' => Auth::id(),
                 'child_investment_plan_id' => $plan_details->id,
                 'transaction_hash' => $hash,
-                'main_wallet_id' => 1,
+                'main_wallet_id' => 7,
                 'amount' => $request->amount,
                 'remaining_duration' => $plan_details->duration,
                 'reinvestment' => '1',
@@ -208,7 +208,8 @@ class DepositController extends Controller {
                 'running' => 1,
                 'approved_at' => date('Y-m-d H:i:s'),
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                // 'user_wallet_id' => 6
             ];
 
             $create_reinvestment = $deposit->create($data);

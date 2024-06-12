@@ -285,7 +285,11 @@ margin-left: -80px;
     <span>Login</span>
   </a>
 </li>
-
+<li class="nav-item dropdown  ">
+  <a href="/register" class="nav-link">
+    <span>Sign Up</span>
+  </a>
+</li>
 <li class="nav-item dropdown  ">
   <a href="/plans" class="nav-link">
     <span>Investment Plans</span>

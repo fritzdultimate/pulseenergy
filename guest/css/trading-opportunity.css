@@ -1,0 +1,379 @@
+.Opportuntiy .el-progress__text {
+    display: none
+}
+
+.Opportuntiy .el-progress-bar {
+    padding-right: 0
+}
+
+.Opportuntiy .swiper-slide {
+    width: auto;
+    height: 44px;
+    border-radius: 22px;
+    border: 1px solid #cbcddb;
+    background-color: #fff;
+    padding: 0 16px 0 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #303355;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    cursor: pointer
+}
+
+.Opportuntiy .swiper-slide img {
+    width: 32px;
+    margin-right: 8px
+}
+
+.Opportuntiy .swiper-slide.active {
+    border-color: #faa116
+}
+
+.Opportuntiy .swiper-button-disabled span {
+    border-color: #cbcddb !important;
+    color: #cbcddb
+}
+
+@media only screen and (max-width:700px) {
+    .Opportuntiy .swiper-slide {
+        height: 28px;
+        border-radius: 14px;
+        padding: 0 10px 0 5px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-right: 12px;
+        cursor: pointer
+    }
+
+    .Opportuntiy .swiper-slide img {
+        width: 20px;
+        margin-right: 5px
+    }
+}
+
+.Opportuntiy .font_1[data-v-7dd8b764] {
+    line-height: 47px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #303355
+}
+
+.Opportuntiy .div1[data-v-7dd8b764] {
+    text-align: center
+}
+
+.Opportuntiy .div1 .text_1[data-v-7dd8b764] {
+    margin-bottom: 16px
+}
+
+.Opportuntiy .div1 .text_2[data-v-7dd8b764] {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #696a7b
+}
+
+.Opportuntiy .div2 .text_1[data-v-7dd8b764] {
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.Opportuntiy .div2 .div2_con[data-v-7dd8b764] {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    background-color: #fff
+}
+
+.Opportuntiy .div2 .div2_tab[data-v-7dd8b764] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.Opportuntiy .div2 .div2_tab .oppo_btn[data-v-7dd8b764] {
+    background-color: #fff;
+    color: #696a7b;
+    font-size: 26px;
+    text-align: center;
+    z-index: 3;
+    outline: none
+}
+
+.Opportuntiy .div2 .div2_tab .oppo_btn span[data-v-7dd8b764] {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    border: 1px solid #696a7b;
+    cursor: pointer
+}
+
+.Opportuntiy .div2 .div2_tab .d2[data-v-7dd8b764] {
+    width: calc(100% - 110px)
+}
+
+.Opportuntiy .div2 .div2_box[data-v-7dd8b764] {
+    margin-top: 50px
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot[data-v-7dd8b764] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot .btn_sty[data-v-7dd8b764] {
+    width: 100%;
+    max-width: 311px;
+    height: 50px;
+    line-height: 50px
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot .dl[data-v-7dd8b764] {
+    max-width: 550px;
+    width: calc(100% - 330px)
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot .dl .d1[data-v-7dd8b764] {
+    font-size: 14px;
+    font-weight: 700;
+    color: #303355
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot .dl .d2[data-v-7dd8b764] {
+    line-height: 18px;
+    font-size: 14px;
+    color: #303355;
+    margin: 8px 0 16px
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot .dl .d3[data-v-7dd8b764] {
+    font-size: 12px;
+    color: #696a7b;
+    line-height: 16px
+}
+
+.Opportuntiy .div2 .div2_box .div2_box_bot .dr[data-v-7dd8b764] {
+    width: 100%;
+    max-width: 330px
+}
+
+.Opportuntiy .div2 table[data-v-7dd8b764] {
+    width: 100%
+}
+
+.Opportuntiy .div2 table tr[data-v-7dd8b764] {
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.Opportuntiy .div2 table tr>td[data-v-7dd8b764] {
+    width: calc(33% - 30px)
+}
+
+.Opportuntiy .div2 table tr>td[data-v-7dd8b764]:first-child {
+    width: 90px
+}
+
+.Opportuntiy .div2 table thead tr>td[data-v-7dd8b764] {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #303355
+}
+
+.Opportuntiy .div2 table tbody .td_1[data-v-7dd8b764] {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #696a7b
+}
+
+.Opportuntiy .div2 table tbody .td_2[data-v-7dd8b764] {
+    line-height: 18px;
+    font-size: 14px;
+    padding: 8px 15px 8px 0
+}
+
+.Opportuntiy .div2 table tbody .col_1[data-v-7dd8b764] {
+    color: #007aff
+}
+
+.Opportuntiy .div2 table tbody .col_2[data-v-7dd8b764] {
+    color: #ff9601
+}
+
+.Opportuntiy .div2 table tbody .col_3[data-v-7dd8b764] {
+    color: #27ac48
+}
+
+.Opportuntiy .div3[data-v-7dd8b764] {
+    text-align: center
+}
+
+.Opportuntiy .div3 .text_1[data-v-7dd8b764] {
+    margin-bottom: 50px
+}
+
+.Opportuntiy .div3 table[data-v-7dd8b764] {
+    font-size: 14px;
+    color: #0d1e30;
+    line-height: 18px;
+    width: 100%
+}
+
+.Opportuntiy .div3 table td[data-v-7dd8b764] {
+    width: 25%;
+    border: 1px solid #ebecf1
+}
+
+.Opportuntiy .div3 table thead[data-v-7dd8b764] {
+    font-weight: 700;
+    background-color: #f6f7f8
+}
+
+.Opportuntiy .div3 table thead td[data-v-7dd8b764] {
+    padding: 7px
+}
+
+.Opportuntiy .div3 table tbody[data-v-7dd8b764] {
+    width: 100%
+}
+
+.Opportuntiy .div3 table tbody td[data-v-7dd8b764] {
+    padding: 20px 10px
+}
+
+.Opportuntiy .div3 table tbody td div[data-v-7dd8b764] {
+    max-width: 200px;
+    margin: 0 auto
+}
+
+.Opportuntiy .div3 table tbody td .col_1[data-v-7dd8b764] {
+    color: #a1a4b6
+}
+
+.Opportuntiy .div3 table tbody td .col_2[data-v-7dd8b764] {
+    color: #faa116
+}
+
+@media only screen and (max-width:700px) {
+    .Opportuntiy[data-v-7dd8b764] {
+        text-align: center
+    }
+
+    .Opportuntiy .font_1[data-v-7dd8b764] {
+        line-height: 29px;
+        font-size: 24px
+    }
+
+    .Opportuntiy .div1 .text_2[data-v-7dd8b764] {
+        font-size: 14px;
+        line-height: 1.71
+    }
+
+    .Opportuntiy .div2[data-v-7dd8b764] {
+        text-align: left
+    }
+
+    .Opportuntiy .div2 .font_1[data-v-7dd8b764] {
+        margin-bottom: 30px
+    }
+
+    .Opportuntiy .div2 .div2_con[data-v-7dd8b764] {
+        padding: 25px 8px
+    }
+
+    .Opportuntiy .div2 .div2_box[data-v-7dd8b764] {
+        margin-top: 50px
+    }
+
+    .Opportuntiy .div2 .div2_box .div2_box_bot[data-v-7dd8b764] {
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 0 8px
+    }
+
+    .Opportuntiy .div2 .div2_box .div2_box_bot .dl[data-v-7dd8b764] {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 16px
+    }
+
+    .Opportuntiy .div2 .div2_tab .oppo_btn[data-v-7dd8b764] {
+        font-size: 18px
+    }
+
+    .Opportuntiy .div2 .div2_tab .oppo_btn span[data-v-7dd8b764] {
+        width: 28px;
+        height: 28px;
+        line-height: 28px
+    }
+
+    .Opportuntiy .div2 .div2_tab .d2[data-v-7dd8b764] {
+        width: calc(100% - 64px)
+    }
+
+    .Opportuntiy .div2 table tr[data-v-7dd8b764] {
+        align-items: flex-start
+    }
+
+    .Opportuntiy .div2 table tr>td[data-v-7dd8b764] {
+        width: calc(33% - 15px);
+        padding: 0 10px 0 0;
+        box-sizing: border-box
+    }
+
+    .Opportuntiy .div2 table tr>td[data-v-7dd8b764]:first-child {
+        width: 45px
+    }
+
+    .Opportuntiy .div2 table thead tr>td[data-v-7dd8b764] {
+        font-size: 12px;
+        line-height: 15px
+    }
+
+    .Opportuntiy .div2 table tbody .td_1[data-v-7dd8b764] {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 5px 0
+    }
+
+    .Opportuntiy .div2 table tbody .td_2[data-v-7dd8b764] {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 5px 10px 5px 0
+    }
+
+    .Opportuntiy .div3 .text_1[data-v-7dd8b764] {
+        margin-bottom: 30px
+    }
+
+    .Opportuntiy .div3 table[data-v-7dd8b764] {
+        font-size: 12px;
+        line-height: 15px
+    }
+
+    .Opportuntiy .div3 table tr[data-v-7dd8b764] {
+        box-sizing: border-box
+    }
+
+    .Opportuntiy .div3 table tr td[data-v-7dd8b764] {
+        word-break: break-word;
+        padding: 10px 4px !important
+    }
+}
+
+.login-container{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    background-color: #fff
+}

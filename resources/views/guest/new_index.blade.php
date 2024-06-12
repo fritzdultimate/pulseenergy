@@ -37,7 +37,7 @@
                     <div class="row content">
                         <div class="carousel-content o_colored_level o_animate o_anim_zoom_in o_animate_both_scroll pb56 offset-lg-1 col-lg-8 pt0" style="animation-name: o_anim_zoom_in; visibility: visible; animation-play-state: paused;">
                              <p><span style="font-size: 62px;"><font class="text-o-color-4">{{ env('APP_NAME') }}&nbsp;'Ready to Run' to Develop Jabung Until 2043</font></span></p><p><font class="text-o-color-3" style="background-color: inherit;">In a media interview on the sidelines of IPA Convex 2024, {{ env('APP_NAME') }} Indonesia President Director Qian Mingyang said that&nbsp;Jabung is an important part of the upstream oil and gas investment in Indonesia. " "Jabung is our strategic operation and we will continue the operation by investing more and seeking more opportunities," he said.&nbsp;</font><br></p><p>
-                                <a href="#" hrecf="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676" class="mb-2 btn btn-primary rounded-circle" data-bs-original-title="" title="" target="_blank"><font style="background-color: inherit;">Read More</font></a><br></p>
+                                <a href="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676" class="mb-2 btn btn-primary rounded-circle" data-bs-original-title="" title="" target="_blank"><font style="background-color: inherit;">Read More</font></a><br></p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="carousel-content o_colored_level o_animate o_anim_zoom_in o_animate_both_scroll pb56 offset-lg-1 col-lg-8 pt0" style="animation-name: o_anim_zoom_in; visibility: visible; animation-play-state: paused;">
                              <p><font style="background-color: inherit;" class="text-o-color-3 font_carrousel_h font_carrousel">SKK Migas Supports Jabung Work Program 2024</font><font style="background-color: inherit;" class="text-o-color-3 font_carrousel_h font_carrousel"></font></p><p><font class="text-o-color-4"><span style="font-size: 18px;">SKK Migas Deputy Chief Nanang Abdul Manaf visited {{ env('APP_NAME') }} Jabung facilities in Jambi Province in late January 2024. There, Nanang&nbsp;reaffirmed SKK Migas' support for PCJL&nbsp;to carry out exploration and development programs throughout 2024.
 
-</span></font></p><p><a href="/blog/news-5/skk-migas-supports-jabung-work-program-2024-3669" class="mb-2 btn btn-primary rounded-circle" data-bs-original-title="" title="" target="_blank"><font style="background-color: inherit;">Read More</font></a><br></p>
+</span></font></p><p><a href="#blog/news-5/skk-migas-supports-jabung-work-program-2024-3669" class="mb-2 btn btn-primary rounded-circle" data-bs-original-title="" title="" target="_blank"><font style="background-color: inherit;">Read More</font></a><br></p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ Jabung&nbsp;Continues Its 2024 Program</span></font></span></b></p><p><font clas
 
 </span>
 
-</font><br></p><p><a class="btn btn-primary rounded-circle" href="/blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-its-2024-programs-3673" data-bs-original-title="" title="" target="_blank">Read more</a></p>
+</font><br></p><p><a class="btn btn-primary rounded-circle" href="#blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-its-2024-programs-3673" data-bs-original-title="" title="" target="_blank">Read more</a></p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ Jabung&nbsp;Continues Its 2024 Program</span></font></span></b></p><p><font clas
 <span style="font-size: 18px;">
 SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} International Jabung Ltd. (PCJL) continue the process of 3D &amp; 2D Seismic Survey “Eastern Jabung” in January 2024. PCJL has completed several parameter tests and public socialization to residents around the survey area in five districts in East Tanjung Jabung.
 
-</span></font><br></p><p><a class="btn btn-primary rounded-circle" href="/blog/press-release-1/{{ env('APP_NAME') }}-continues-3d-2d-seismic-survey-in-jabung-block-3668" data-bs-original-title="" title="" target="_blank">Read more</a></p>
+</span></font><br></p><p><a class="btn btn-primary rounded-circle" href="#blog/press-release-1/{{ env('APP_NAME') }}-continues-3d-2d-seismic-survey-in-jabung-block-3668" data-bs-original-title="" title="" target="_blank">Read more</a></p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">May 27, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -164,7 +164,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/petrochina-holds-first-ramadan-event-after-covid-19-pandemic-3675">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/petrochina-holds-first-ramadan-event-after-covid-19-pandemic-3675">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3675" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6653?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -172,11 +172,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/{{ env('APP_NAME') }}-holds-first-ramadan-event-after-covid-19-pandemic-3675"><h4 class="mb-0">{{ env('APP_NAME') }} Holds First Ramadan Event after Covid-19 Pandemic</h4></a>
+            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-holds-first-ramadan-event-after-covid-19-pandemic-3675"><h4 class="mb-0">{{ env('APP_NAME') }} Holds First Ramadan Event after Covid-19 Pandemic</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Apr 18, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -192,7 +192,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/cnodc-riped-delegation-team-visits-pcjl-facility-in-betara-3674">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/cnodc-riped-delegation-team-visits-pcjl-facility-in-betara-3674">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3674" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6382?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -200,11 +200,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/cnodc-riped-delegation-team-visits-pcjl-facility-in-betara-3674"><h4 class="mb-0">CNODC, RIPED Delegation Team Visits PCJL Facility in Betara</h4></a>
+            <a href="#blog/company-news-5/cnodc-riped-delegation-team-visits-pcjl-facility-in-betara-3674"><h4 class="mb-0">CNODC, RIPED Delegation Team Visits PCJL Facility in Betara</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Apr 3, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -220,7 +220,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/{{ env('APP_NAME') }}-jabung-hosts-festive-chinese-new-year-2024-celebration-3672">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/{{ env('APP_NAME') }}-jabung-hosts-festive-chinese-new-year-2024-celebration-3672">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3672" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6195?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -228,11 +228,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/{{ env('APP_NAME') }}-jabung-hosts-festive-chinese-new-year-2024-celebration-3672"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Hosts Festive Chinese New Year 2024 Celebration</h4></a>
+            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-jabung-hosts-festive-chinese-new-year-2024-celebration-3672"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Hosts Festive Chinese New Year 2024 Celebration</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Mar 15, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -248,7 +248,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/batang-asam-district-community-thanks-{{ env('APP_NAME') }}-for-flood-victim-care-support-3671">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/batang-asam-district-community-thanks-{{ env('APP_NAME') }}-for-flood-victim-care-support-3671">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3671" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6045?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -256,11 +256,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/batang-asam-district-community-thanks-{{ env('APP_NAME') }}-for-flood-victim-care-support-3671"><h4 class="mb-0">Batang Asam District Community Thanks {{ env('APP_NAME') }} for Flood Victim Care Support</h4></a>
+            <a href="#blog/company-news-5/batang-asam-district-community-thanks-{{ env('APP_NAME') }}-for-flood-victim-care-support-3671"><h4 class="mb-0">Batang Asam District Community Thanks {{ env('APP_NAME') }} for Flood Victim Care Support</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Feb 27, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -276,7 +276,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/{{ env('APP_NAME') }}-continues-to-support-stunting-reduction-program-3670">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/{{ env('APP_NAME') }}-continues-to-support-stunting-reduction-program-3670">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3670" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6033?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -284,11 +284,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/{{ env('APP_NAME') }}-continues-to-support-stunting-reduction-program-3670"><h4 class="mb-0">{{ env('APP_NAME') }} Continues to Support Stunting-Reduction Program</h4></a>
+            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-continues-to-support-stunting-reduction-program-3670"><h4 class="mb-0">{{ env('APP_NAME') }} Continues to Support Stunting-Reduction Program</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Feb 27, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -304,7 +304,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/{{ env('APP_NAME') }}-jabung-secures-green-proper-for-gas-operation-blue-for-oil-3667">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/{{ env('APP_NAME') }}-jabung-secures-green-proper-for-gas-operation-blue-for-oil-3667">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3667" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/5447?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -312,11 +312,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/{{ env('APP_NAME') }}-jabung-secures-green-proper-for-gas-operation-blue-for-oil-3667"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Secures Green PROPER for Gas Operation, Blue for Oil</h4></a>
+            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-jabung-secures-green-proper-for-gas-operation-blue-for-oil-3667"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Secures Green PROPER for Gas Operation, Blue for Oil</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Jan 12, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -332,7 +332,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/national-police-supervises-security-management-system-in-{{ env('APP_NAME') }}-jabung-3655">
+        <a class="s_blog_posts_post_cover" href="#blog/company-news-5/national-police-supervises-security-management-system-in-{{ env('APP_NAME') }}-jabung-3655">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3655" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/4836?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -340,39 +340,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/company-news-5/national-police-supervises-security-management-system-in-{{ env('APP_NAME') }}-jabung-3655"><h4 class="mb-0">National Police Supervises Security Management System in {{ env('APP_NAME') }} Jabung</h4></a>
+            <a href="#blog/company-news-5/national-police-supervises-security-management-system-in-{{ env('APP_NAME') }}-jabung-3655"><h4 class="mb-0">National Police Supervises Security Management System in {{ env('APP_NAME') }} Jabung</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Nov 24, 2023</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
-            </span>
-        </div>
-    </div>
-</div>
-                    </div>
-                
-            
-        </div>
-    
-        <div class="row my-4 ">
-            
-                
-                    <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
-                        <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
-    <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/company-news-5/{{ env('APP_NAME') }}-jabung-strengthens-medical-cooperation-with-jambi-hospitals-3654">
-<div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3654" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
-    <div style="background-image: url(https://www.petrochina.co.id/web/image/4834?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
-    
-            
-</div>
-        </a>
-        <div class="card-body">
-            <a href="/blog/company-news-5/{{ env('APP_NAME') }}-jabung-strengthens-medical-cooperation-with-jambi-hospitals-3654"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Strengthens Medical Cooperation with Jambi Hospitals</h4></a>
-        </div>
-        <div class="card-footer d-flex justify-content-between">
-            <span class="text-muted mb-0">Nov 24, 2023</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/5">Company News</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/5">Company News</a>
             </span>
         </div>
     </div>
@@ -408,7 +380,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-its-2024-programs-3673">
+        <a class="s_blog_posts_post_cover" href="#blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-its-2024-programs-3673">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3673" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6272?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -416,11 +388,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-its-2024-programs-3673"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Continues Its 2024 Programs</h4></a>
+            <a href="#blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-its-2024-programs-3673"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Continues Its 2024 Programs</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Mar 22, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/1">Press Release</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/1">Press Release</a>
             </span>
         </div>
     </div>
@@ -436,7 +408,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/press-release-1/skk-migas-supports-jabung-work-program-2024-3669">
+        <a class="s_blog_posts_post_cover" href="#blog/press-release-1/skk-migas-supports-jabung-work-program-2024-3669">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3669" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/5904?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -444,11 +416,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/press-release-1/skk-migas-supports-jabung-work-program-2024-3669"><h4 class="mb-0">SKK Migas Supports Jabung Work Program 2024</h4></a>
+            <a href="#blog/press-release-1/skk-migas-supports-jabung-work-program-2024-3669"><h4 class="mb-0">SKK Migas Supports Jabung Work Program 2024</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Feb 16, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/1">Press Release</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/1">Press Release</a>
             </span>
         </div>
     </div>
@@ -464,7 +436,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/press-release-1/{{ env('APP_NAME') }}-continues-3d-2d-seismic-survey-in-jabung-block-3668">
+        <a class="s_blog_posts_post_cover" href="#blog/press-release-1/{{ env('APP_NAME') }}-continues-3d-2d-seismic-survey-in-jabung-block-3668">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3668" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/5546?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -472,11 +444,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/press-release-1/{{ env('APP_NAME') }}-continues-3d-2d-seismic-survey-in-jabung-block-3668"><h4 class="mb-0">{{ env('APP_NAME') }} Continues 3D &amp; 2D Seismic Survey in Jabung Block</h4></a>
+            <a href="#blog/press-release-1/{{ env('APP_NAME') }}-continues-3d-2d-seismic-survey-in-jabung-block-3668"><h4 class="mb-0">{{ env('APP_NAME') }} Continues 3D &amp; 2D Seismic Survey in Jabung Block</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Jan 19, 2024</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/1">Press Release</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/1">Press Release</a>
             </span>
         </div>
     </div>
@@ -492,7 +464,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/press-release-1/{{ env('APP_NAME') }}-to-spud-11-wells-in-2023-in-support-of-1-million-barrel-target-3662">
+        <a class="s_blog_posts_post_cover" href="#blog/press-release-1/{{ env('APP_NAME') }}-to-spud-11-wells-in-2023-in-support-of-1-million-barrel-target-3662">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3662" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6427?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -500,11 +472,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/press-release-1/{{ env('APP_NAME') }}-to-spud-11-wells-in-2023-in-support-of-1-million-barrel-target-3662"><h4 class="mb-0">{{ env('APP_NAME') }} to Spud 11 Wells in 2023 in Support of 1-Million-Barrel Target</h4></a>
+            <a href="#blog/press-release-1/{{ env('APP_NAME') }}-to-spud-11-wells-in-2023-in-support-of-1-million-barrel-target-3662"><h4 class="mb-0">{{ env('APP_NAME') }} to Spud 11 Wells in 2023 in Support of 1-Million-Barrel Target</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Dec 21, 2023</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/1">Press Release</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/1">Press Release</a>
             </span>
         </div>
     </div>
@@ -520,7 +492,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-to-nurture-collaboration-spirit-with-local-governments-3656">
+        <a class="s_blog_posts_post_cover" href="#blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-to-nurture-collaboration-spirit-with-local-governments-3656">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3656" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/4922?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -528,11 +500,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-to-nurture-collaboration-spirit-with-local-governments-3656"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Continues to Nurture Collaboration Spirit with Local Governments</h4></a>
+            <a href="#blog/press-release-1/{{ env('APP_NAME') }}-jabung-continues-to-nurture-collaboration-spirit-with-local-governments-3656"><h4 class="mb-0">{{ env('APP_NAME') }} Jabung Continues to Nurture Collaboration Spirit with Local Governments</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Dec 5, 2023</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/1">Press Release</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/1">Press Release</a>
             </span>
         </div>
     </div>
@@ -548,7 +520,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/press-release-1/pcjl-to-significantly-boost-exploration-in-support-of-2030-oil-and-gas-production-target-3652">
+        <a class="s_blog_posts_post_cover" href="#blog/press-release-1/pcjl-to-significantly-boost-exploration-in-support-of-2030-oil-and-gas-production-target-3652">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3652" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/4659?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -556,11 +528,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/press-release-1/pcjl-to-significantly-boost-exploration-in-support-of-2030-oil-and-gas-production-target-3652"><h4 class="mb-0">PCJL to Significantly Boost Exploration in Support of 2030 Oil and Gas Production Target</h4></a>
+            <a href="#blog/press-release-1/pcjl-to-significantly-boost-exploration-in-support-of-2030-oil-and-gas-production-target-3652"><h4 class="mb-0">PCJL to Significantly Boost Exploration in Support of 2030 Oil and Gas Production Target</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Nov 17, 2023</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/1">Press Release</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/1">Press Release</a>
             </span>
         </div>
     </div>
@@ -614,7 +586,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/company-profile-2023-3666">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/company-profile-2023-3666">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3666" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/6436?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -622,11 +594,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/company-profile-2023-3666"><h4 class="mb-0">Company Profile 2023</h4></a>
+            <a href="#blog/publication-6/company-profile-2023-3666"><h4 class="mb-0">Company Profile 2023</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Dec 21, 2023</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -642,7 +614,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/company-profile-2021-3108">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/company-profile-2021-3108">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3108" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3661?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -650,11 +622,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/company-profile-2021-3108"><h4 class="mb-0">Company Profile 2021</h4></a>
+            <a href="#blog/publication-6/company-profile-2021-3108"><h4 class="mb-0">Company Profile 2021</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Jun 5, 2022</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -670,7 +642,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/lampion-11th-edition-3204">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/lampion-11th-edition-3204">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3204" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3837?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -678,11 +650,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/lampion-11th-edition-3204"><h4 class="mb-0">Lampion 11th Edition</h4></a>
+            <a href="#blog/publication-6/lampion-11th-edition-3204"><h4 class="mb-0">Lampion 11th Edition</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Jan 31, 2021</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -698,7 +670,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/sustainability-report-2019-3577">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/sustainability-report-2019-3577">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3577" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3830?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -706,11 +678,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/sustainability-report-2019-3577"><h4 class="mb-0">Sustainability Report 2019</h4></a>
+            <a href="#blog/publication-6/sustainability-report-2019-3577"><h4 class="mb-0">Sustainability Report 2019</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Dec 9, 2020</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -726,7 +698,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/sustainability-report-2014-3641">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/sustainability-report-2014-3641">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3641" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3821?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -734,11 +706,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/sustainability-report-2014-3641"><h4 class="mb-0">Sustainability Report 2014</h4></a>
+            <a href="#blog/publication-6/sustainability-report-2014-3641"><h4 class="mb-0">Sustainability Report 2014</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Dec 9, 2020</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -754,7 +726,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/lampion-10th-edition-3214">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/lampion-10th-edition-3214">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3214" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/2750?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -762,11 +734,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/lampion-10th-edition-3214"><h4 class="mb-0">Lampion 10th Edition </h4></a>
+            <a href="#blog/publication-6/lampion-10th-edition-3214"><h4 class="mb-0">Lampion 10th Edition </h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Nov 30, 2020</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -782,7 +754,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/lampion-9th-edition-3642">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/lampion-9th-edition-3642">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3642" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3794?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -790,11 +762,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/lampion-9th-edition-3642"><h4 class="mb-0">Lampion 9th Edition</h4></a>
+            <a href="#blog/publication-6/lampion-9th-edition-3642"><h4 class="mb-0">Lampion 9th Edition</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Sep 8, 2019</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -810,7 +782,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/lampion-8th-edition-3643">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/lampion-8th-edition-3643">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3643" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3730?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -818,11 +790,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/lampion-8th-edition-3643"><h4 class="mb-0">Lampion 8th Edition</h4></a>
+            <a href="#blog/publication-6/lampion-8th-edition-3643"><h4 class="mb-0">Lampion 8th Edition</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Sep 7, 2019</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>
@@ -838,7 +810,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/blog/publication-6/lampion-7th-edition-3644">
+        <a class="s_blog_posts_post_cover" href="#blog/publication-6/lampion-7th-edition-3644">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3644" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/3635?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -846,11 +818,11 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/blog/publication-6/lampion-7th-edition-3644"><h4 class="mb-0">Lampion 7th Edition</h4></a>
+            <a href="#blog/publication-6/lampion-7th-edition-3644"><h4 class="mb-0">Lampion 7th Edition</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Sep 6, 2019</span>
-            <span class="text-muted mb-0">In <a class="fw-bold" href="/blog/6">Publication</a>
+            <span class="text-muted mb-0">In <a class="fw-bold" href="#blog/6">Publication</a>
             </span>
         </div>
     </div>

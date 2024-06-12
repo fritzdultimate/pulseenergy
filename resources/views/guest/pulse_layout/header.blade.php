@@ -288,7 +288,7 @@ margin-left: -80px;
 
 <li class="nav-item dropdown  ">
   <a href="/plans" class="nav-link">
-    <span>Plans</span>
+    <span>Investment Plans</span>
   </a>
 </li>
 <li class="nav-item dropdown  " style="display: none;">

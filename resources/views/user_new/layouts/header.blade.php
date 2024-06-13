@@ -11,9 +11,9 @@
                 </a>
               </div>
               <div class="nk-header-brand">
-                <a href="/user" class="logo-link">n
-                  <img class="logo-light logo-img" src="{{ asset('android-chrome-192x192.png') }}" srcset="{{ asset('android-chrome-192x192.png') }} 2x" alt="logo">
-                  <img class="logo-dark logo-img" src="{{ asset('android-chrome-192x192.png') }}" srcset="{{ asset('android-chrome-192x192.png') }} 2x" alt="logo-dark">
+                <a href="/user" class="logo-link">
+                  <img class="logo-light logo-img" src="{{ asset('android-chrome-192x192.png?ref=2') }}" srcset="{{ asset('android-chrome-192x192.png') }} 2x" alt="logo">
+                  <img class="logo-dark logo-img" src="{{ asset('android-chrome-192x192.png?ref=3') }}" srcset="{{ asset('android-chrome-192x192.png') }} 2x" alt="logo-dark">
                   {{-- <span class="nio-version">Invest</span> --}}
                 </a>
               </div>
@@ -21,8 +21,8 @@
                 <div class="nk-header-mobile">
                   <div class="nk-header-brand">
                     <a href="/user" class="logo-link">k
-                      <img class="logo-light logo-img" src="{{  asset('guest/img/logo-desktop-dark1.png') }}" srcset="{{  asset('guest/img/logo-desktop-dark1.png') }} 2x" alt="logo">
-                      <img class="logo-dark logo-img" src="{{  asset('guest/img/logo-desktop-dark1.png') }}" srcset="{{  asset('guest/img/logo-desktop-dark1.png') }} 2x" alt="logo-dark">
+                      <img class="logo-light logo-img" src="{{  asset('guest/img/logo-desktop-dark1.png?ref=33') }}" srcset="{{  asset('guest/img/logo-desktop-dark1.png') }} 2x" alt="logo">
+                      <img class="logo-dark logo-img" src="{{  asset('guest/img/logo-desktop-dark1.png?ref=5') }}" srcset="{{  asset('guest/img/logo-desktop-dark1.png') }} 2x" alt="logo-dark">
                       {{-- <span class="nio-version">Invest</span> --}}
                     </a>
                   </div>

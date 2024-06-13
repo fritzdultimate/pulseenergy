@@ -59,7 +59,7 @@
                               <tr class="tb-odr-item">
                                 <td class="tb-odr-info">
                                   <span class="tb-odr-id">
-                                    <a href="{{ $transaction->type == 'withdrawal' ? "/user/withdrawals/$transaction->transaction_id" : "/user/investments/$transaction->transaction_id" }}">#{{ strtoupper(substr($transaction->transaction_hash, 3, 6)) }}</a>
+                                    <a href="{{ $transaction->type == 'withdrawal' ? "/user/withdrawals/$transaction->transaction_id" : "/user/investments/$transaction->transaction_id" }}">#{{ strtoupper(substr($transaction->transaction_hash, 3, 6)) }} ({{ $transaction->type == 'withdrawal' ? $transaction->withdrawal->status : $transaction->deposit->status }})</a>
                                   </span>
                                   <span class="tb-odr-date">{{ get_day_format($transaction->created_at) }}</span>
                                 </td>

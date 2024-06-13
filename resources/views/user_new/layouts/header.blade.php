@@ -20,7 +20,7 @@
               <div class="nk-header-menu" data-content="headerNav">
                 <div class="nk-header-mobile">
                   <div class="nk-header-brand">
-                    <a href="/user" class="logo-link">
+                    <a href="/user" class="logo-link">k
                       <img class="logo-light logo-img" src="{{  asset('guest/img/logo-desktop-dark1.png') }}" srcset="{{  asset('guest/img/logo-desktop-dark1.png') }} 2x" alt="logo">
                       <img class="logo-dark logo-img" src="{{  asset('guest/img/logo-desktop-dark1.png') }}" srcset="{{  asset('guest/img/logo-desktop-dark1.png') }} 2x" alt="logo-dark">
                       {{-- <span class="nio-version">Invest</span> --}}

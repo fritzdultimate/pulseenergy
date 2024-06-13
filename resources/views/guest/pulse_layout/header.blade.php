@@ -11,17 +11,17 @@
         <meta property="og:title" content="Home | {{ env('APP_NAME') }}">
         <meta property="og:site_name" content="{{ env('APP_NAME') }}">
         <meta property="og:url" content="https://www.{{ env('APP_NAME') }}.com/">
-        <meta property="og:image" content="https://www.petrochina.co.id/web/image/website/2/logo?unique=a7efe3e">
+        <meta property="og:image" content="{{ asset('android-chrome-192x192.png?ref=2') }}">
             
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Home | {{ env('APP_NAME') }}">
-        <meta name="twitter:image" content="https://www.petrochina.co.id/web/image/website/2/logo/300x300?unique=a7efe3e">
+        <meta name="twitter:image" content="{{ asset('android-chrome-192x192.png?ref=2') }}">
         
         <link rel="canonical" href="https://www.{{ env('APP_NAME') }}.com/">
         
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
         <title> Home | {{ env('APP_NAME') }} </title>
-        <link type="image/x-icon" rel="shortcut icon" href="https://www.petrochina.co.id/web/image/website/2/favicon?unique=a7efe3e">
+        <link type="image/x-icon" rel="shortcut icon" href="{{ asset('android-chrome-192x192.png?ref=2') }}">
         <link rel="preload" href="https://www.petrochina.co.id/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="">
         <link type="text/css" rel="stylesheet" href="https://www.petrochina.co.id/web/assets/6980-2c33c7e/2/web.assets_frontend.min.css" data-asset-bundle="web.assets_frontend" data-asset-version="2c33c7e">
         <script id="web.layout.odooscript" type="text/javascript">
@@ -126,7 +126,7 @@ width: 100%;
 </style>
 <a href="/" class="navbar-brand logo ">
 
-<span role="img" aria-label="Logo of {{ env('APP_NAME') }}" title="{{ env('APP_NAME') }}"><img src="https://www.petrochina.co.id/web/image/website/2/logo/Petrochina?unique=a7efe3e" class="img img-fluid logo_navbar" width="95" height="40" alt="{{ env('APP_NAME') }}" loading="lazy" style=""></span>
+<span role="img" aria-label="Logo of {{ env('APP_NAME') }}" title="{{ env('APP_NAME') }}"><img src="{{ asset('android-chrome-192x192.png?ref=2') }}" class="img img-fluid logo_navbar" width="95" height="40" alt="{{ env('APP_NAME') }}" loading="lazy" style=""></span>
 </a>
 
     

@@ -31,7 +31,7 @@ class ProfitCronJobController extends Controller {
 
                 ProfitCronJob::insert([
                     'user_id' => $deposit->user_id,
-                    'user_wallet_id' => 2,
+                    'user_wallet_id' => 6,
                     'deposit_id' => $deposit->id,
                     'child_investment_plan_id' => $deposit->child_investment_plan_id,
                     'transaction_hash' => $deposit->transaction_hash,

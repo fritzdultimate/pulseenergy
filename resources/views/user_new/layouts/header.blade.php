@@ -12,8 +12,8 @@
               </div>
               <div class="nk-header-brand">
                 <a href="/user" class="logo-link">
-                  <img class="logo-light logo-img" src="{{ asset('android-chrome-192x192.png?ref=2') }}" srcset="{{ asset('android-chrome-192x192.png') }} 2x" alt="logo">
-                  <img class="logo-dark logo-img" src="{{ asset('android-chrome-192x192.png?ref=3') }}" srcset="{{ asset('android-chrome-192x192.png') }} 2x" alt="logo-dark">
+                  <img class="logo-light logo-img" src="{{ asset('android-chrome-192x192.png?ref=2') }}" srcset="{{ asset('android-chrome-192x192.png?ref=90') }} 2x" alt="logo">
+                  <img class="logo-dark logo-img" src="{{ asset('android-chrome-192x192.png?ref=3') }}" srcset="{{ asset('android-chrome-192x192.png?ref=998') }} 2x" alt="logo-dark">
                   {{-- <span class="nio-version">Invest</span> --}}
                 </a>
               </div>

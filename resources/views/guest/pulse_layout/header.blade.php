@@ -126,8 +126,7 @@ width: 100%;
 </style>
 <a href="/" class="navbar-brand logo ">
 
-<span role="img" aria-label="Logo of {{ env('APP_NAME') }}" title="{{ env('APP_NAME') }}">
-  <img src="{{ asset('android-chrome-192x192.png') }}" class="img img-fluid logo_navbar" width="95" height="40" alt="{{ env('APP_NAME') }}" loading="lazy" style=""></span>
+<span role="img" aria-label="Logo of {{ env('APP_NAME') }}" title="{{ env('APP_NAME') }}"><img src="https://www.petrochina.co.id/web/image/website/2/logo/Petrochina?unique=a7efe3e" class="img img-fluid logo_navbar" width="95" height="40" alt="{{ env('APP_NAME') }}" loading="lazy" style=""></span>
 </a>
 
     

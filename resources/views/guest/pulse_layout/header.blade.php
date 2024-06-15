@@ -85,10 +85,10 @@
             <div class="col-lg-4 text-lg-end o_colored_level contact_topbar_h contact_topbar">
                 <div class="s_social_media o_not_editable no_icon_color" data-snippet="s_social_media" data-name="Social Media">
                     <small class="s_social_media_title text-muted d-none"><b>Follow us</b></small>
-<a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+<a href="https://www.instagram/{{ env('APP_NAME') }}" class="s_social_media_instagram" target="_blank">
                         <i class="fa fa-instagram m-1 o_editable_media"></i>
                     </a>
-<a href="https://twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
+<a href="https://www.twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
                         <img src="https://www.petrochina.co.id/web/image/2032-3282444e/logo%20twitter%20x%20header.png" alt="" class="m-1 o_editable_media img img-fluid o_we_custom_image" data-original-id="2031" data-original-src="https://www.petrochina.co.id/web/image/2031-ea253085/logo%20twitter%20x%20header.png" data-mimetype="image/png" data-resize-width="14" loading="lazy" style="">
                     </a>
 </div>

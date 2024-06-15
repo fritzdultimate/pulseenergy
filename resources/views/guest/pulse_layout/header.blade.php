@@ -173,34 +173,32 @@ margin-left: -80px;
     </style> 
     <div id="top_menu_collapse" class="collapse navbar-collapse ms-lg-3 collapse_list_h collapse_list">
 <ul id="top_menu" class="nav navbar-nav flex-grow-1">
-
-            
-<li class="nav-item">
-<a role="menuitem" href="/" class="nav-link active">
-<span>Home</span>
-</a>
-</li>
+  <li class="nav-item">
+    <a role="menuitem" href="/" class="nav-link active">
+      <span>Home</span>
+    </a>
+  </li>
 <li class="nav-item dropdown  ">
-<a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
-<span>About Us</span>
-</a>
-<ul class="dropdown-menu" role="menu">
-<li class="">
-<a role="menuitem" href="/about-us" class="dropdown-item ">
-<span>About {{ env('APP_NAME') }} in Indonesia</span>
-</a>
-</li>
-<li class="">
-<a role="menuitem" href="/vision-mission" class="dropdown-item ">
-<span>Vision Mission</span>
-</a>
-</li>
-<li class="">
-<a role="menuitem" href="/management-profiles" class="dropdown-item ">
-<span>Management Profiles</span>
-</a>
-</li>
-</ul>
+    <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
+      <span>About Us</span>
+    </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="">
+      <a role="menuitem" href="/about-us" class="dropdown-item ">
+        <span>About {{ env('APP_NAME') }} in Indonesia</span>
+      </a>
+    </li>
+    <li class="">
+      <a role="menuitem" href="/vision-mission" class="dropdown-item ">
+        <span>Vision Mission</span>
+      </a>
+    </li>
+    <li class="">
+      <a role="menuitem" href="/management-profiles" class="dropdown-item ">
+        <span>Management Profiles</span>
+      </a>
+    </li>
+  </ul>
 </li>
 <li class="nav-item dropdown  " style="display: none;">
 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
@@ -316,12 +314,7 @@ margin-left: -80px;
 </a>
 </li>
 </ul>
-</li>
-            
-            
-
-
-        
+</li>    
 </ul>
         
         
@@ -375,4 +368,3 @@ width: 10em;
 </nav>
 
 </header>
-

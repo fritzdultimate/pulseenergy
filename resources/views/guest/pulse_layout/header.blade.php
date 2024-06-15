@@ -89,7 +89,7 @@
                         <i class="fa fa-instagram m-1 o_editable_media"></i>
                     </a>
                     <a href="https://www.twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
-                        <img src="https://www.petrochina.co.id/web/image/2032-3282444e/logo%20twitter%20x%20header.png" alt="" class="m-1 o_editable_media img img-fluid o_we_custom_image" data-original-id="2031" data-original-src="https://www.petrochina.co.id/web/image/2031-ea253085/logo%20twitter%20x%20header.png" data-mimetype="image/png" data-resize-width="14" loading="lazy" style="">
+                        <img src="https://www.petrochina.co.id/web/image/2032-3282444e/logo%20twitter%20x%20header.png" alt="{{ env('APP_NAME') }}" class="m-1 o_editable_media img img-fluid o_we_custom_image" data-original-id="2031" data-original-src="https://www.petrochina.co.id/web/image/2031-ea253085/logo%20twitter%20x%20header.png" data-mimetype="image/png" data-resize-width="14" loading="lazy" style="">
                     </a>
                 </div>
             </div>

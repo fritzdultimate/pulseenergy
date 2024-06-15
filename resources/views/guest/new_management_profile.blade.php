@@ -107,7 +107,7 @@
                     <div class="col-lg-2 pt16 pb16 o_colored_level">
                         <div class="s_social_media text-end o_not_editable no_icon_color" data-snippet="s_social_media" data-name="Social Media">
                             <p class="s_social_media_title d-block mb-2"><span style="font-size: 18px;">Follow us</span></p>
-<a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+<a href="https://www.instagram/{{ env('APP_NAME') }}" class="s_social_media_instagram" target="_blank">
                                 <i class="fa fa-instagram m-1 o_editable_media fa-2x"></i>
                             </a>
 <a href="https://twitter.com/env('APP_NAME') }}?lang=en" target="_blank">
@@ -206,7 +206,7 @@
                                                 <h5 class="font-weight-bold">You can also join us on</h5>
                                                 <p class="mb0">
                                                     <a class="btn btn-sm btn-link" href="https://twitter.com/env('APP_NAME') }}?lang=en"><i class="fa fa-2x fa-twitter"></i></a>
-                                                    <a class="btn btn-sm btn-link" href="https://www.instagram.com/env('APP_NAME') }}/"><i class="fa fa-2x fa-instagram"></i></a>
+                                                    <a class="btn btn-sm btn-link" href="https://www.instagram.com/{{ env('APP_NAME') }}/"><i class="fa fa-2x fa-instagram"></i></a>
                                                 </p>
                                             </div>
                                         </div>

@@ -35,9 +35,7 @@
         </ul>
         <div class="risk_tips" data-v-02205386="">
             <div class="d1" data-v-02205386="">
-                Risk Warning | Withdrawal: Withdrawal request will be processed quickly, and funds will be deposited into your provided wallet address immediately. Please keep in mind that financial products involve a high level of
-                risk, and you may lose your entire principal. Margin trading may not be suitable for all investors, please ensure that you fully understand the risks involved. Before using our services, please read
-                carefully our risk warnings, terms and conditions. Traders do not own the underlying assets and related rights and interests of the transaction.
+                Withdrawal: Your withdrawal requests will be processed quickly, and funds will be deposited into your designated wallet address promptly. Our financial products offer significant profit potential. Before using our services, please ensure you understand our terms and conditions. Traders do not own the underlying assets or related rights and interests of the transaction.
             </div>
             <br data-v-02205386="" />
             <div data-v-02205386="">{{ env('APP_NAME') }} does not provide any suggestions, recommendations or opinions on buying, holding or selling our trading products.</div>

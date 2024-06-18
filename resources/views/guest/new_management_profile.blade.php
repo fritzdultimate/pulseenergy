@@ -30,7 +30,7 @@
                     <img src="https://www.petrochina.co.id/web/image/6560-d460067d/Pres%20Dir%20-%20Qian%20Mingyang.jpg" alt="" class="card-img-top img img-fluid o_we_custom_image" data-original-id="6416" data-original-src="https://www.petrochina.co.id/web/image/6416-4b1dd8bf/Pres%20Dir%20-%20Qian%20Mingyang.jpg" data-mimetype="image/jpeg" data-resize-width="690" loading="lazy" data-bs-original-title="" title="" aria-describedby="tooltip985014" data-popup="notificationTrigger" data-popup_id="1" style="">
         <attribute name="data-showTrigger"></attribute>
                     <div class="card-body">
-                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Qian Mingyang</strong></h4>
+                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Huang Zhong</strong></h4>
                         <h6 class="card-text o_default_snippet_text" style="text-align: center;"><span style="font-size: 18px;">President Director</span></h6>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="card text-bg-white h-100"><h6>
                     <img src="https://www.petrochina.co.id/web/image/6566-524acb94/GM%20Jabung%20-%20Wang%20Heping2.jpg" alt="" class="card-img-top img img-fluid o_we_custom_image" data-original-id="6417" data-original-src="https://www.petrochina.co.id/web/image/6417-b2c7e409/GM%20Jabung%20-%20Wang%20Heping2.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-bs-original-title="" title="" aria-describedby="tooltip249458" data-popup="notificationTrigger" data-popup_id="2" loading="lazy" style="">
                     <div class="card-body">
-                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Wang Heping</strong></h4>
+                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Peng Weizhe</strong></h4>
                         <p class="card-text o_default_snippet_text" style="text-align: center;"><span style="font-size: 18px;">General Manager Jabung</span></p>
                     </div>
                 </h6></div>
@@ -48,7 +48,7 @@
                 <div class="card text-bg-white h-100">
                     <img src="https://www.petrochina.co.id/web/image/6567-9715da74/VP%20Op%26Dev%20-%20Yu%20Jinbao2.jpg" alt="" class="card-img-top img img-fluid o_we_custom_image" data-bs-original-title="" title="" aria-describedby="tooltip196218" data-original-id="6420" data-original-src="https://www.petrochina.co.id/web/image/6420-7e71405d/VP%20Op%26Dev%20-%20Yu%20Jinbao2.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-popup="notificationTrigger" data-popup_id="5" loading="lazy" style="">
                     <div class="card-body">
-                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Yu Jinbao</strong><br></h4>
+                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Meng Bohai</strong><br></h4>
                         <p class="card-text o_default_snippet_text" style="text-align: center;"><span style="font-size: 18px;">VP Operation &amp; Development</span></p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="card text-bg-white h-100">
                     <img src="https://www.petrochina.co.id/web/image/6568-f44971b9/VP%20Fin%20-%20Jin%20Lihao2.jpg" alt="" class="card-img-top img img-fluid o_we_custom_image" data-original-id="6418" data-original-src="https://www.petrochina.co.id/web/image/6418-a2a65805/VP%20Fin%20-%20Jin%20Lihao2.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-bs-original-title="" title="" aria-describedby="tooltip790766" data-popup="notificationTrigger" data-popup_id="3" loading="lazy" style="">
                     <div class="card-body">
-                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Jin Lihao</strong><br></h4>
+                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Suharto Darmadi</strong><br></h4>
                         <p class="card-text o_default_snippet_text" style="text-align: center;"><span style="font-size: 18px;">VP of Finance</span></p>
                     </div>
                 </div>
@@ -64,18 +64,20 @@
                 <div class="card text-bg-white h-100">
                     <img src="https://www.petrochina.co.id/web/image/6569-c00c5eb0/VP%20BS%20-%20Gusminar2.jpg" alt="" class="card-img-top img img-fluid o_we_custom_image" data-original-id="6419" data-original-src="https://www.petrochina.co.id/web/image/6419-97e5b561/VP%20BS%20-%20Gusminar2.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-bs-original-title="" title="" aria-describedby="tooltip492725" data-popup="notificationTrigger" data-popup_id="4" loading="lazy" style="">
                     <div class="card-body">
-                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Gusminar</strong><br></h4>
+                        <h4 class="card-title o_default_snippet_text" style="text-align: center;"><strong>Hengki Gunardi</strong><br></h4>
                         <p class="card-text o_default_snippet_text" style="text-align: center;"><span style="font-size: 18px;">VP Business Support</span></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section><section class="s_text_block o_colored_level o_cc o_cc2 pb16 pt16" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+</section>
+<section class="s_text_block o_colored_level o_cc o_cc2 pb16 pt16" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
     <div class="s_allow_columns container" style="display: none;">
         <p class="o_default_snippet_text" style="text-align: center;"><em><span style="font-size: 14px;">*</span><strong><span style="font-size: 14px;">Double click </span></strong><span style="font-size: 14px;">on photos to read more detailed profiles.</span></em><br></p>
     </div>
-</section></div>
+</section>
+</div>
 
             </main>
             <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
@@ -105,7 +107,7 @@
                     <div class="col-lg-2 pt16 pb16 o_colored_level">
                         <div class="s_social_media text-end o_not_editable no_icon_color" data-snippet="s_social_media" data-name="Social Media">
                             <p class="s_social_media_title d-block mb-2"><span style="font-size: 18px;">Follow us</span></p>
-<a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+<a href="https://www.instagram/{{ env('APP_NAME') }}" class="s_social_media_instagram" target="_blank">
                                 <i class="fa fa-instagram m-1 o_editable_media fa-2x"></i>
                             </a>
 <a href="https://twitter.com/env('APP_NAME') }}?lang=en" target="_blank">
@@ -204,7 +206,7 @@
                                                 <h5 class="font-weight-bold">You can also join us on</h5>
                                                 <p class="mb0">
                                                     <a class="btn btn-sm btn-link" href="https://twitter.com/env('APP_NAME') }}?lang=en"><i class="fa fa-2x fa-twitter"></i></a>
-                                                    <a class="btn btn-sm btn-link" href="https://www.instagram.com/env('APP_NAME') }}/"><i class="fa fa-2x fa-instagram"></i></a>
+                                                    <a class="btn btn-sm btn-link" href="https://www.instagram.com/{{ env('APP_NAME') }}/"><i class="fa fa-2x fa-instagram"></i></a>
                                                 </p>
                                             </div>
                                         </div>

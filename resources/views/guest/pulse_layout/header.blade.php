@@ -85,13 +85,13 @@
             <div class="col-lg-4 text-lg-end o_colored_level contact_topbar_h contact_topbar">
                 <div class="s_social_media o_not_editable no_icon_color" data-snippet="s_social_media" data-name="Social Media">
                     <small class="s_social_media_title text-muted d-none"><b>Follow us</b></small>
-<a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+                    <a href="https://www.instagram/{{ env('APP_NAME') }}" class="s_social_media_instagram" target="_blank">
                         <i class="fa fa-instagram m-1 o_editable_media"></i>
                     </a>
-<a href="https://twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
-                        <img src="https://www.petrochina.co.id/web/image/2032-3282444e/logo%20twitter%20x%20header.png" alt="" class="m-1 o_editable_media img img-fluid o_we_custom_image" data-original-id="2031" data-original-src="https://www.petrochina.co.id/web/image/2031-ea253085/logo%20twitter%20x%20header.png" data-mimetype="image/png" data-resize-width="14" loading="lazy" style="">
+                    <a href="https://www.twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
+                        <img src="https://www.petrochina.co.id/web/image/2032-3282444e/logo%20twitter%20x%20header.png" alt="{{ env('APP_NAME') }}" class="m-1 o_editable_media img img-fluid o_we_custom_image" data-original-id="2031" data-original-src="https://www.petrochina.co.id/web/image/2031-ea253085/logo%20twitter%20x%20header.png" data-mimetype="image/png" data-resize-width="14" loading="lazy" style="">
                     </a>
-</div>
+                </div>
             </div>
             <div class="col-lg-12 o_colored_level contact_topbar_phone_h contact_topbar_phone right-align">
                 <small>
@@ -101,7 +101,7 @@
                     <i class="fa fa-1x fa-fw fa-envelope me-2 d-inline"></i><a href="mailto:info@ {{ env('APP_NAME') }}.com" data-bs-original-title="" title="">info@ {{ env('APP_NAME') }}.com</a>
                 </small>
                 <small class="s_social_media_title text-muted d-none"><b>Follow us</b></small>
-<a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+<a href="https://www.instagram/{{ env('APP_NAME') }}" class="s_social_media_instagram" target="_blank">
                         <i class="fa fa-instagram m-1 o_editable_media"></i>
                     </a>
 <a href="https://twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
@@ -173,34 +173,32 @@ margin-left: -80px;
     </style> 
     <div id="top_menu_collapse" class="collapse navbar-collapse ms-lg-3 collapse_list_h collapse_list">
 <ul id="top_menu" class="nav navbar-nav flex-grow-1">
-
-            
-<li class="nav-item">
-<a role="menuitem" href="/" class="nav-link active">
-<span>Home</span>
-</a>
-</li>
+  <li class="nav-item">
+    <a role="menuitem" href="/" class="nav-link active">
+      <span>Home</span>
+    </a>
+  </li>
 <li class="nav-item dropdown  ">
-<a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
-<span>About Us</span>
-</a>
-<ul class="dropdown-menu" role="menu">
-<li class="">
-<a role="menuitem" href="/about-us" class="dropdown-item ">
-<span>About {{ env('APP_NAME') }} in Indonesia</span>
-</a>
-</li>
-<li class="">
-<a role="menuitem" href="/vision-mission" class="dropdown-item ">
-<span>Vision Mission</span>
-</a>
-</li>
-<li class="">
-<a role="menuitem" href="/management-profiles" class="dropdown-item ">
-<span>Management Profiles</span>
-</a>
-</li>
-</ul>
+    <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
+      <span>About Us</span>
+    </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="">
+      <a role="menuitem" href="/about-us" class="dropdown-item ">
+        <span>About {{ env('APP_NAME') }} in Indonesia</span>
+      </a>
+    </li>
+    <li class="">
+      <a role="menuitem" href="/vision-mission" class="dropdown-item ">
+        <span>Vision Mission</span>
+      </a>
+    </li>
+    <li class="">
+      <a role="menuitem" href="/management-profiles" class="dropdown-item ">
+        <span>Management Profiles</span>
+      </a>
+    </li>
+  </ul>
 </li>
 <li class="nav-item dropdown  " style="display: none;">
 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle ">
@@ -316,12 +314,7 @@ margin-left: -80px;
 </a>
 </li>
 </ul>
-</li>
-            
-            
-
-
-        
+</li>    
 </ul>
         
         
@@ -375,4 +368,3 @@ width: 10em;
 </nav>
 
 </header>
-

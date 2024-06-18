@@ -139,4 +139,20 @@
 </div>
 
 
-<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2f70fb173b9000da126c79afe2098f02.html?origin=https%3A%2F%2Fwww.{{ env('APP_NAME') }}.com" title="Twitter settings iframe" style="display: none;"></iframe><div class="o-main-components-container"><div class="o_effects_manager"></div><div class="o_dialog_container"><div></div></div><div class="o_notification_manager"></div><div></div><div class="o_notification_manager o_upload_progress_toast"></div><div class="o_popover_container"></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2f70fb173b9000da126c79afe2098f02.html?origin=https%3A%2F%2Fwww.{{ env('APP_NAME') }}.com" title="Twitter settings iframe" style="display: none;"></iframe><div class="o-main-components-container"><div class="o_effects_manager"></div><div class="o_dialog_container"><div></div></div><div class="o_notification_manager"></div><div></div><div class="o_notification_manager o_upload_progress_toast"></div><div class="o_popover_container"></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe>
+
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '5d83b20b7e3e3101861924233aabdea77c5b954a';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+    
+</body>
+</html>

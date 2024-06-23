@@ -93,7 +93,7 @@
                             </div>
                             <div style="max-width: 50%; vertical-align: top; padding-bottom: 20px; margin-left: auto; font-size: 12px;">
                                 <div class="m_-3852285001892450277payment-value">
-                                    {{ getDateString(date('Y-m-d'), "DD-MM-YYYY") }} | {{ getTimeString(date('Y-m-d'), "hh:mm A") }}
+                                    {{ date('Y-m-d') }} | {{ date('h:m:s A') }}
 
                                 </div>
                             </div>

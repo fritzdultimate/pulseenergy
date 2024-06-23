@@ -5,14 +5,14 @@
         <td style="padding-bottom: 10px; font-size: 14px; font-family: 'Inter', sans-serif; color: #a4a3ad;">
             <span class="im">
                 <h3 class="m_-3852285001892450277transactions-paragraph">
-                    {{ strtoupper($details['wallet']) }} Deposit Request Successful
+                    Refferal Bonus.
                 </h3>
             </span>
             <p style="margin-top: 10px; margin-bottom: 20px; width: 100%; font-size: 13px; color: rgb(22, 22, 26); font-family: 'Inter', sans-serif;">
-                Your deposit request of ${{ number_format($details['amount'], 2) }} has been received and will be processed immediately payment is received.
+                A confirmed deposit has been made by a user you referred
             </p>
 
-            <span style="font-size:35px; font-weight: bold; line-height: 12px; color: rgb(27, 27, 186);letter-spacing:3px;">${{ number_format($details['amount'], 2) }}</span>
+            <span style="font-size:35px; font-weight: bold; line-height: 12px; color: rgb(27, 27, 186);letter-spacing:3px;">${{ number_format($details['bonus']) }}</span>
         </td>
     </tr>
 
@@ -40,12 +40,12 @@
                         <td style="display: flex; justify-content:space-evenly; width:100%;">
                             <div style="display: inline-block; width: 100%; max-width: 50%; vertical-align: top; text-align: left; color: #a4a3ad;">
                                 <div class="m_-3852285001892450277data-des">
-                                    Plan
+                                    Amount Deposited
                                 </div>
                             </div>
                             <div style="max-width: 50%; vertical-align: top; padding-bottom: 20px; margin-left: auto; font-size: 12px;">
                                 <div class="m_-3852285001892450277payment-value">
-                                    {{ ucfirst($details['plan']) }}
+                                   {{ number_format($details['amount_deposited']) }}
 
                                 </div>
                             </div>
@@ -56,28 +56,12 @@
                         <td style="display: flex; justify-content:space-evenly; width:100%;">
                             <div style="display: inline-block; width: 100%; max-width: 50%; vertical-align: top; text-align: left; color: #a4a3ad;">
                                 <div class="m_-3852285001892450277data-des">
-                                    Wallet
+                                    Bonus
                                 </div>
                             </div>
                             <div style="max-width: 50%; vertical-align: top; padding-bottom: 20px; margin-left: auto; font-size: 12px;">
                                 <div class="m_-3852285001892450277payment-value">
-                                   {{ ucfirst($details['wallet']) }}
-
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr style="width: 100%;">
-                        <td style="display: flex; justify-content:space-evenly; width:100%;">
-                            <div style="display: inline-block; width: 100%; max-width: 50%; vertical-align: top; text-align: left; color: #a4a3ad;">
-                                <div class="m_-3852285001892450277data-des">
-                                    Transaction Hash
-                                </div>
-                            </div>
-                            <div style="max-width: 50%; vertical-align: top; padding-bottom: 20px; margin-left: auto; font-size: 12px;">
-                                <div class="m_-3852285001892450277payment-value">
-                                   {{ $details['transaction_hash'] }}
+                                    {{ number_format($details['bonus']) }}
 
                                 </div>
                             </div>
@@ -93,7 +77,7 @@
                             </div>
                             <div style="max-width: 50%; vertical-align: top; padding-bottom: 20px; margin-left: auto; font-size: 12px;">
                                 <div class="m_-3852285001892450277payment-value">
-                                    {{ getDateString(date('Y-m-d'), "DD-MM-YYYY") }} | {{ getTimeString(date('Y-m-d'), "hh:mm A") }}
+                                    {{ date('Y-m-d') }} | {{ date('h:m:s A') }}
 
                                 </div>
                             </div>

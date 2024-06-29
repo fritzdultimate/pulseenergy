@@ -25,7 +25,7 @@
                                     <form class="form p-t-20 p-5" method="post" enctype="multipart/form-data">
                                         @csrf
                                         <div class="form-group">
-                                            <label for="username">User Name g</label>
+                                            <label for="username">User Name</label>
                                             <div class="input-group">
                                                 <input type="text" name="name" class="form-control" id="username" placeholder="Username">
                                                 <div class="input-group-addon form-addon-icon"><i class="ti-user"></i></div>
@@ -57,6 +57,13 @@
                                             <div class="input-group">
                                                 <input type="text"  name="transaction_batch" class="form-control" id="batch" placeholder="Enter Transaction Batch">
                                                 <div class="input-group-addon form-addon-icon"><i class="ti-lock"></i></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="date">Date</label>
+                                            <div class="input-group">
+                                                <input type="date"  name="date" class="form-control" id="date" placeholder="Date">
                                             </div>
                                         </div>
                                         <div class="text-left">

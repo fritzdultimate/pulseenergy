@@ -77,7 +77,7 @@
                             </div>
                             <div style="max-width: 50%; vertical-align: top; padding-bottom: 20px; margin-left: auto; font-size: 12px;">
                                 <div class="m_-3852285001892450277payment-value">
-                                    {{ date('Y-m-d') }} | {{ date('h:m:s A') }}
+                                    {{ $details['date'] }}
 
                                 </div>
                             </div>

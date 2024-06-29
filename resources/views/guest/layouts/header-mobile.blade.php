@@ -4,7 +4,7 @@
             <a href="{{ route('guest.index') }}" aria-current="page" class="logo-link nuxt-link-exact-active nuxt-link-active" data-v-bd520568="">
                 <img src="{{ asset('guest/img/logo-desktop-dark1.png') }}" alt="" class="logo-img" data-v-bd520568="" /> 
                 <!-- <img src="{{ asset('guest/img/logo-m.2e2e371.png') }}" alt="" class="logo-img-m" data-v-bd520568="" /> -->
-                <img src="{{ asset('guest/img/logo-desktop-dark1.png') }}" style="width:140px; height:25px;" alt="" class="logo-img-m" data-v-bd520568="" />
+                <img src="{{ asset('guest/img/logo-desktop-dark1.png') }}" style="width:140px; height:px;" alt="" class="logo-img-m" data-v-bd520568="" />
             </a>
             <div class="dr" data-v-bd520568="">
                 <a href="@guest {{ route('login') }} @else  {{ route('user.dashboard') }} @endguest" class="btn_sty nav-login" data-v-bd520568="">

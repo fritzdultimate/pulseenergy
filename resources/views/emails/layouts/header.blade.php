@@ -13,7 +13,7 @@
                                             <tr>
                                                 <td style="padding: 10px 0; background-color: #ffffff;">
                                                     <div class="m_-3852285001892450277img-container">
-                                                        <img style="width: 100px; height:30px"
+                                                        <img style="width: 100px; height:140px"
                                                             src="{{ env('EMAIL_LOGO') }}"
                                                             class="m_-3852285001892450277img CToWUd"
                                                             data-bit="iit"

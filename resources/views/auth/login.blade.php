@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', env('APP_NAME'). " | Best Forex, Commodity, Indices, Share Trading Platform")
+@section('title', env('APP_NAME'). " | Best Oil & Gas Platform")
 
 @section('content')
 

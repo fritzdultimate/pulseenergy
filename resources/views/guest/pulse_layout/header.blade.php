@@ -79,7 +79,7 @@
                     <i class="fa fa-1x fa-fw fa-phone me-2"></i><span class="me-3"><a href="tel:+{{ env('APP_NUMBER') }}" data-bs-original-title="" title="">+{{ env('APP_NUMBER') }}
 
 </a></span>
-                    <i class="fa fa-1x fa-fw fa-envelope me-2 d-inline"></i><a href="mailto:info@ {{ env('APP_NAME') }}.com" data-bs-original-title="" title="">info@ {{ env('APP_NAME') }}.com</a>
+                    <i class="fa fa-1x fa-fw fa-envelope me-2 d-inline"></i><a href="mailto:info@ {{ env('APP_NAME') }}.com" data-bs-original-title="" title="">info@{{ env('APP_NAME') }}.com</a>
                 </small>
             </div>
             <div class="col-lg-4 text-lg-end o_colored_level contact_topbar_h contact_topbar">

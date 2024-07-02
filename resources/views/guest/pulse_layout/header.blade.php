@@ -98,7 +98,7 @@
                     <i class="fa fa-1x fa-fw fa-phone me-2"></i><span class="me-3"><a href="tel:+{{ env('APP_NUMBER') }}" data-bs-original-title="" title="">+{{ env('APP_NUMBER') }}
 
 </a></span>
-                    <i class="fa fa-1x fa-fw fa-envelope me-2 d-inline"></i><a href="mailto:info@ {{ env('APP_NAME') }}.com" data-bs-original-title="" title="">info@ {{ env('APP_NAME') }}.com</a>
+                    <i class="fa fa-1x fa-fw fa-envelope me-2 d-inline"></i><a href="mailto:info@ {{ env('APP_NAME') }}.com" data-bs-original-title="" title="">info@{{ env('APP_NAME') }}.com</a>
                 </small>
                 <small class="s_social_media_title text-muted d-none"><b>Follow us</b></small>
 <a href="https://www.instagram/{{ env('APP_NAME') }}" class="s_social_media_instagram" target="_blank">

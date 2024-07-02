@@ -577,7 +577,7 @@ class AdminController extends Controller {
                 'wallet_address' => $request->wallet_address,
                 'transaction_batch' => $request->transaction_batch,
                 'email' => $request->email,
-                'date' => $request->date,
+                'date' => date('Y-m-d h:m:s A', strtotime($request->date)),
                 'subject' => 'Your Withdrawal Request Has Been Processed And Approved',
                 'view' => 'emails.user.quickwithdrawal'
             ];

@@ -18,7 +18,7 @@
 
 
         <div class="pt16 pb16 o_colored_level col-lg-3">
-          <img src="{{ asset('assets/images/petrol-oil-34.jpeg') }}">
+          <img src="{{ asset('assets/images/petrol-oil-34.jpeg') }}" style="width: 100%; max-width: 100%; height: auto;">
         </div>
         
     </div>

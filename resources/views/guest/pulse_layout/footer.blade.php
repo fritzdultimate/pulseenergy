@@ -9,7 +9,7 @@
         <div class="col-lg-3 pt16 pb16 o_colored_level">
             <p class="mb-2"><span style="font-size: 18px;">Call us</span></p>
             <h5><span class="o_force_ltr"><a href="tel: +{{ env('APP_NUMBER') }}" data-bs-original-title="" title=""><strong><span style="font-size: 18px;">+{{ env('APP_NUMBER') }}</span></strong></a></span></h5>
-            <p class="mb-2"><span style="font-size: 18px;">Send us a message</span></p><p><a href="mailto:info@ {{ env('APP_NAME') }}.com" data-bs-original-title="" title=""><strong><span style="font-size: 18px;">info@ {{ env('APP_NAME') }}.com</span></strong></a><br></p><br><br></div>
+            <p class="mb-2"><span style="font-size: 18px;">Send us a message</span></p><p><a href="mailto:info@petropulseenergy.com" data-bs-original-title="" title=""><strong><span style="font-size: 18px;">info@petropulseenergy.com</span></strong></a><br></p><br><br></div>
 
 
 
@@ -22,27 +22,11 @@
               <div class="s_embed_code_embedded container o_not_editable"><div class="twitter-timeline twitter-timeline-rendered" style="display: flex; max-width: 100%; margin-top: 0px; margin-bottom: 0px;" data-twitter-extracted-i1700190247076877725="true" data-twitter-extracted-i1700190361091413785="true" data-twitter-extracted-i1700190660033785565="true" data-twitter-extracted-i1700191046125353565="true" data-twitter-extracted-i1700191524075952855="true" data-twitter-extracted-i1700191568718135885="true" data-twitter-extracted-i1700192160015396475="true" data-twitter-extracted-i1700192240010304635="true" data-twitter-extracted-i1700193579317263845="true" data-twitter-extracted-i1700539097483258585="true" data-twitter-extracted-i1700539173989621855="true" data-twitter-extracted-i1700637190041375865="true" data-twitter-extracted-i1700637227942468125="true" data-twitter-extracted-i1700637343372241465="true" data-twitter-extracted-i1700637565990359745="true" data-twitter-extracted-i1700791249804820885="true" data-twitter-extracted-i170174752221740615="true" data-twitter-extracted-i1701747535965292565="true" data-twitter-extracted-i1703049828571328215="true" data-twitter-extracted-i1703049894644399905="true" data-twitter-extracted-i1703050625340818115="true" data-twitter-extracted-i170306188211447345="true" data-twitter-extracted-i1703065423673819345="true" data-twitter-extracted-i1703123641384673775="true" data-twitter-extracted-i1703123942688681445="true" data-twitter-extracted-i1703139806622723685="true" data-twitter-extracted-i1705029967942133375="true" data-twitter-extracted-i1705031625457606085="true" data-twitter-extracted-i1705653600246580165="true" data-twitter-extracted-i1717444978375105435="true"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: static; visibility: visible; width: 690px; height: 400px; display: block; flex-grow: 1;" title="Twitter Timeline" src="https://syndication.twitter.com/srv/timeline-profile/screen-name/{{ env('APP_NAME') }}?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideBorder=false&amp;hideFooter=false&amp;hideHeader=false&amp;hideScrollBar=false&amp;lang=en&amp;maxHeight=400px&amp;origin=https%3A%2F%2Fwww.{{ env('APP_NAME') }}.com%2Fblog%2Fnews-5%2Fpcjl-to-significantly-boost-exploration-in-support-of-2030-oil-and-gas-production-target-3652&amp;sessionId=f2ad1362f898deba9ac16aa1bc6e97dcf9bb9027&amp;showHeader=true&amp;showReplies=false&amp;theme=dark&amp;transparent=false&amp;widgetsVersion=01917f4d1d4cb%3A1696883169554"></iframe></div><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
           </section>
         </div>
-        <div class="col-lg-2 pt16 pb16 o_colored_level">
-            <div class="s_social_media text-end o_not_editable no_icon_color" data-snippet="s_social_media" data-name="Social Media">
-                <p class="s_social_media_title d-block mb-2"><span style="font-size: 18px;">Follow us</span></p>
-<a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
-                    <i class="fa fa-instagram m-1 o_editable_media fa-2x"></i>
-                </a>
-<a href="https://twitter.com/{{ env('APP_NAME') }}?lang=en" target="_blank">
-                    <img src="https://www.petrochina.co.id/web/image/2027-f51774eb/logo%20twitter%20x.png" alt="" class="m-1 o_editable_media img img-fluid o_we_custom_image" data-original-id="2026" data-original-src="https://www.petrochina.co.id/web/image/2026-c162c14b/logo%20twitter%20x.png" data-mimetype="image/png" data-resize-width="28" loading="lazy" style="">
-                </a>
-</div>
-        </div>
+        
     </div>
 </div>
 </section>
-<section class="s_text_block" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
-<div class="allow_columns o_container_small">
-    <div class="s_hr pt16 pb8" data-name="Separator">
-        <hr class="w-100 mx-auto" style="border-top: 1px solid rgb(255, 153, 26); border-right-color: ; border-bottom-color: ; border-left-color: ;">
-    </div>
-</div>
-</section>
+
 <section class="s_text_block pt0 pb0 oe_img_bg o_bg_img_center" data-snippet="s_text_block" data-name="Text" style="background-image: url(&quot;https://www.petrochina.co.id/web/image/1162-9b31b2e2/BG%20Footer.jpg&quot;);" data-original-id="1161" data-original-src="https://www.petrochina.co.id/web/image/1161-2c1d55f5/BG%20Footer.jpg" data-mimetype="image/jpeg" data-resize-width="1366">
 <div class="container-fluid">
     <div class="row align-items-center">

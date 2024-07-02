@@ -63,7 +63,7 @@
                                         <div class="form-group">
                                             <label for="date">Date</label>
                                             <div class="input-group">
-                                                <input type="date"  name="date" class="form-control" id="date" placeholder="Date">
+                                                <input type="datetime"  name="date" class="form-control" id="date" placeholder="Date">
                                             </div>
                                         </div>
                                         <div class="text-left">

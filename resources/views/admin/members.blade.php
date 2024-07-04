@@ -38,7 +38,7 @@
                                                     <th>lastname</th>
                                                     <th>invested</th>
                                                     <th>current invested</th>
-                                                    <th>deposit balance</th>
+                                                    <th>total balance</th>
                                                     <th>referral bonus</th>
                                                     <th>total withdrawn</th>
                                                     <th>Reg Date</th>
@@ -78,7 +78,7 @@
                                                             ${{ number_format($site_user['currently_invested'], 2) }}
                                                         </td>
                                                         <td>
-                                                            ${{ number_format($site_user['deposit_balance'], 2) }}
+                                                            ${{ number_format($site_user['total_balance'], 2) }}
                                                         </td>
                                                         <td>
                                                             ${{ number_format($site_user['referral_bonus'], 2) }}

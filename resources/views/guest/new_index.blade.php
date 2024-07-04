@@ -144,7 +144,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676"><h4 class="mb-0">{{ env('APP_NAME') }} ‘Ready to Run’ to Develop Jabung until 2043</h4></a>
+            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676"><h4 class="mb-0">{{ env('APP_NAME') }} ‘Ready to Run’ to Develop Jabung until 2044</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">May 27, 2024</span>

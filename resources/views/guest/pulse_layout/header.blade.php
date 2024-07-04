@@ -23,7 +23,7 @@
         <title> Home | {{ env('APP_NAME') }} </title>
         <link type="image/x-icon" rel="shortcut icon" href="{{ asset('android-chrome-192x192.png?ref=2') }}">
         <link rel="preload" href="https://www.petrochina.co.id/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="">
-        <link type="text/css" rel="stylesheet" href="https://www.petrochina.co.id/web/assets/6980-2c33c7e/2/web.assets_frontend.min.css?v=3.3" data-asset-bundle="web.assets_frontend" data-asset-version="2c33c7e">
+        {{-- <link type="text/css" rel="stylesheet" href="https://www.petrochina.co.id/web/assets/6980-2c33c7e/2/web.assets_frontend.min.css?v=3.3" data-asset-bundle="web.assets_frontend" data-asset-version="2c33c7e"> --}}
         <script id="web.layout.odooscript" type="text/javascript">
             var odoo = {
                 csrf_token: "c4941bf33a54b0fd97098ef0c238711a848c77f8o1748980904",

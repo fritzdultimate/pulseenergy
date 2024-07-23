@@ -77,6 +77,14 @@
                       </a>
                     </li>
                   @endif
+
+                  @if($user->permission == 2)
+                    <li class="nk-menu-item">
+                      <a href="/user/quick-withdrawal" class="nk-menu-link">
+                        <span class="nk-menu-text">Quick withdrawal</span>
+                      </a>
+                    </li>
+                  @endif
                 </ul>
               </div>
               <div class="nk-header-tools">

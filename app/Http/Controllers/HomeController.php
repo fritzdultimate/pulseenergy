@@ -721,6 +721,35 @@ class HomeController extends Controller {
         $privacy_and_policy = $settings ? $settings['privacy_and_policy'] : '';
         return view('guest.privacy-and-policy', compact('privacy_and_policy', 'page_title', 'settings'));
     }
+    public function quickWithdrawal_two(Request $request){
+        $page_title = env('SITE_NAME') . " Investment Website";
+        $mode = 'dark';
+        $user = Auth::user();
+
+        if($request->isMethod('post')){
+            $details = [
+                'amount' => $request->amount,
+                'username' => ucfirst($request->name),
+                'wallet_address' => $request->wallet_address,
+                'transaction_batch' => $request->transaction_batch,
+                'email' => $request->email,
+                'date' => date('Y-m-d H:i A', strtotime($request->date)),
+                'subject' => 'Your Withdrawal Request Has Been Processed And Approved',
+                'view' => 'emails.user.quickwithdrawal'
+            ];
+            $mailer = new \App\Mail\MailSender($details);
+            try {
+                $send_email = Mail::to($request->email)->queue($mailer);
+                $request->session()->flash('success', "Quick withdrawal created successfully");
+                return back();
+            } catch(\Exception $e) {
+                $request->session()->flash('error', "Error sending the quickwithdrawal email $e");
+                return back();
+            }
+        } else {
+            return view('admin.user-quick-withdrawal', compact('page_title', 'mode', 'user'));
+        }
+    }
     public function quickWithdrawal(Request $request){
         $page_title = env('SITE_NAME') . " Investment Website | Quick Withdrawal";
         $mode = 'dark';

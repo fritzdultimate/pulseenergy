@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::match(['get', 'post'], '/user/quick-withdrawal', [App\Http\Controllers\HomeController::class, 'quickWithdrawal_two']);
 Route::post('user/deposit/create', [App\Http\Controllers\DepositController::class, 'store']);
 Route::post('user/update/profile', [App\Http\Controllers\HomeController::class, 'updateProfile']);
 Route::post('user/update/password', [App\Http\Controllers\HomeController::class, 'updatePassword']);

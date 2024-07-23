@@ -1,6 +1,7 @@
 <div class="left-sidebar">
     <div class="scroll-sidebar">
         <nav class="sidebar-nav">
+            @if($user->is_admin)
             <ul id="sidebar-menu">
                 <li class="nav-devider"></li>
                 <li class="nav-label">USER</li>
@@ -79,7 +80,7 @@
                         <li><a href="/admin/fund/ci/confirm-credit">Credit</a></li>
                         <li><a href="/admin/fund/ci/confirm-debit">Debit</a></li>
                     </ul>
-                </li>
+                </li> 
                 <li>
                     <a href="/admin/quick-withdrawal" aria-expanded="false">
                         <i class="fa fa-credit-card"></i><span class="hide-menu">Quick Withdrawal</span>
@@ -154,6 +155,7 @@
                     </a> 
                 </li>
             </ul>
+            @endif
         </nav>
     </div>
 </div>

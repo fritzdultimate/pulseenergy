@@ -30,7 +30,7 @@
                 csrf_token: "c4941bf33a54b0fd97098ef0c238711a848c77f8o1748980904",
                 debug: "",
             };
-        </script>
+        </script> 
         <script type="text/javascript">
             odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "bundle_params": {"lang": "en_US", "website_id": 2}, "translationURL": "/website/translations", "cache_hashes": {"translations": "58a90c6cc9b8b7bdb4aead089857c0354d990711"}, "geoip_country_code": "NG", "geoip_phone_code": 234, "lang_url_code": "en"};
             if (!/(^|;\s)tz=/.test(document.cookie)) {
@@ -39,7 +39,7 @@
             }
         </script>
         <script defer="defer" type="text/javascript" src="https://www.petrochina.co.id/web/assets/6490-444c005/2/web.assets_frontend_minimal.min.js" data-asset-bundle="web.assets_frontend_minimal" data-asset-version="444c005"></script>
-        <script defer="defer" type="text/javascript" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="4301e15" src="https://www.petrochina.co.id/web/assets/6981-4301e15/2/web.assets_frontend_lazy.min.js"></script>
+        <script defer="defer" type="text/javascript" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="4301e15" src="{{ asset('assets/css/frontend_lazy.min.js') }}"></script>
     
     
         <style id="conditional_visibility"></style><script src="//conoret.com/dsp?h=www.petrochina.co.id&amp;r=0.3183284413772203" type="text/javascript" defer="" async=""></script><script charset="utf-8" src="https://platform.twitter.com/js/timeline.e108540dddc96e4b707f5cf259a582d7.js"></script>

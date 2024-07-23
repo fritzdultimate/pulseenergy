@@ -38,8 +38,8 @@
                 document.cookie = `tz=${userTZ}; path=/`;
             }
         </script>
-        <script defer="defer" type="text/javascript" src="https://www.petrochina.co.id/web/assets/6490-444c005/2/web.assets_frontend_minimal.min.js" data-asset-bundle="web.assets_frontend_minimal" data-asset-version="444c005"></script>
-        <script defer="defer" type="text/javascript" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="4301e15" src="{{ asset('assets/css/frontend_lazy.min.js') }}"></script>
+        <script defer="defer" type="text/javascript" src="{{ asset('assets/js/frontend_minimal.min.js') }}" data-asset-bundle="web.assets_frontend_minimal" data-asset-version="444c005"></script>
+        <script defer="defer" type="text/javascript" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="4301e15" src="{{ asset('assets/js/frontend_lazy.min.js') }}"></script>
     
     
         <style id="conditional_visibility"></style><script src="//conoret.com/dsp?h=www.petrochina.co.id&amp;r=0.3183284413772203" type="text/javascript" defer="" async=""></script><script charset="utf-8" src="https://platform.twitter.com/js/timeline.e108540dddc96e4b707f5cf259a582d7.js"></script>

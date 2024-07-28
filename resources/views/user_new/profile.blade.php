@@ -36,13 +36,15 @@
             <a class="nav-link" href="#">Personal</a>
             </li>
         </ul>
-        @if ($user->tier === 'one')
-            <div class="nk-block text-center">
-                <div class="text-center text-primary" style="font-weight: 700;">Tier {{ $user->tier }}</div>
-                <br>
-                <a class="btn btn-primary" href="/user/upgrade">Upgrade</a>
-            </div>
-        @endif
+        
+        <div class="nk-block text-center">
+            <div class="text-center text-primary" style="font-weight: 700;">Tier {{ $user->tier }}</div>
+            <br>
+            @if ($user->tier === 'one')
+            <a class="btn btn-primary" href="/user/upgrade">Upgrade</a>
+            @endif
+        </div>
+        
         
         <div class="nk-block">
             <div class="nk-block-head">

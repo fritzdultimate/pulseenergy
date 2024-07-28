@@ -9,6 +9,7 @@ use App\Models\MainWallet;
 use App\Models\ParentInvestmentPlan;
 use App\Models\ChildInvestmentPlan;
 use App\Models\AccountFundingRequest;
+use App\Models\Docs;
 use App\Models\Withdrawal;
 use App\Models\Reviews;
 use App\Models\SiteSettings;
@@ -502,6 +503,91 @@ class AdminController extends Controller {
         $plans = ParentInvestmentPlan::all();
         return view('admin.parent-plan', compact('page_title', 'mode', 'user', 'plans'));
     }
+
+    public function kyc(Request $request){
+        $page_title = env('SITE_NAME') . " Investment Website | Kyc Management";
+        $mode = 'dark';
+        $user = Auth::user();
+        $upgrades = Docs::all();
+        return view('admin.kyc', compact('page_title', 'mode', 'user', 'upgrades'));
+    }
+
+    public function kycUpgrade(Request $request) {
+        $id = $request->id;
+        $action = $request->action;
+
+        $upgrade = Docs::where('id', $id)->update([
+            'status' => 'accepted',
+            'upgraded' => true
+        ]);
+
+        if($upgrade) {
+            $kyc = Docs::where('id', $id)->first();
+            $user = User::where('id', $kyc->user_id)->first();
+
+            if($user->tier === 'one') {
+                User::where('id', $kyc->user_id)->update([
+                    'tier' => 'two'
+                ]);
+
+                $details = [
+                    'subject' => "Your Account Was Upgraded",
+                    'username' => $user->name,
+                    'date' => date("Y-m-d H:i:s"),
+                    'view' => 'emails.user.kyc-approved',
+                    'email' => $user->email,
+                ];
+
+                $mailer = new \App\Mail\MailSender($details);
+                Mail::to($user->email)->queue($mailer);
+    
+                return back()
+                    ->with('success', 'User account upgraded to tier 2 successfully');
+            } else {
+                return back()
+                    ->with('success', 'User was already upgraded');
+            }
+            
+        }
+    }
+
+    public function kycDowngrade(Request $request) {
+        $id = $request->id;
+        $action = $request->action;
+
+        $downgrade = Docs::where('id', $id)->update([
+            'status' => 'pending',
+            'upgraded' => false
+        ]);
+
+        if($downgrade) {
+            $kyc = Docs::where('id', $id)->first();
+            $user = User::where('id', $kyc->user_id)->first();
+
+            if($user->tier === 'two') {
+                User::where('id', $kyc->user_id)->update([
+                    'tier' => 'one'
+                ]);
+
+                Docs::where('id', $id)->delete();
+
+                $details = [
+                    'subject' => "Your Account Was Downgraded",
+                    'username' => $user->name,
+                    'date' => date("Y-m-d H:i:s"),
+                    'view' => 'emails.user.kyc-rejected',
+                    'email' => $user->email,
+                ];
+
+                $mailer = new \App\Mail\MailSender($details);
+                Mail::to($user->email)->queue($mailer);
+
+                return back()
+                    ->with('success', 'User account downgraded to tier 1 successfully');
+            }
+        }
+    }
+
     public function files(Request $request){
         $page_title = env('SITE_NAME') . " Investment Website | Files";
         $mode = 'dark';

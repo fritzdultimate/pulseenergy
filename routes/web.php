@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::match(['get', 'post'], '/user/quick-withdrawal', [App\Http\Controllers\HomeController::class, 'quickWithdrawal_two']);
 Route::post('user/deposit/create', [App\Http\Controllers\DepositController::class, 'store']);
 Route::post('user/update/profile', [App\Http\Controllers\HomeController::class, 'updateProfile']);
+Route::post('user/upgrade/profile', [App\Http\Controllers\FilesController::class, 'storeFrontDocument']);
 Route::post('user/update/password', [App\Http\Controllers\HomeController::class, 'updatePassword']);
 
 
@@ -77,6 +78,7 @@ Route::prefix('user')->name('user.')->group(function(){
     Route::get('/investments/{id}', [App\Http\Controllers\HomeController::class, 'InvestmentDetails']);
     Route::get('/withdrawals/{id}', [App\Http\Controllers\HomeController::class, 'WithdrawalDetails']);
     Route::get('/profile', [App\Http\Controllers\HomeController::class, 'userProfile']);
+    Route::get('/upgrade', [App\Http\Controllers\HomeController::class, 'userProfileUpgrade']);
     
     Route::get('/deposits', [App\Http\Controllers\HomeController::class, 'deposits']);
     Route::match(['get', 'post'], '/deposits/active', [App\Http\Controllers\HomeController::class, 'activeDeposits']);
@@ -106,7 +108,10 @@ Route::prefix('admin')->middleware(['login', 'admin'])->group(function(){
     Route::match(['get', 'post'], '/members', [App\Http\Controllers\AdminController::class, 'members']);
    
    
-    
+    Route::get('/upgrade', [App\Http\Controllers\AdminController::class, 'kyc']);
+
+    Route::post('/upgrade/approve', [App\Http\Controllers\AdminController::class, 'kycUpgrade']);
+    Route::post('/upgrade/reject', [App\Http\Controllers\AdminController::class, 'kycDowngrade']);
     
     Route::match(['get', 'post'], '/plans/parent', [App\Http\Controllers\ParentInvestmentPlanController::class, 'index']);
     Route::match(['get', 'post'], '/plans/child', [App\Http\Controllers\ChildInvestmentPlanController::class, 'index']);

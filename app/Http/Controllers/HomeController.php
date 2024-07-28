@@ -11,6 +11,7 @@ use App\Models\ChildInvestmentPlan;
 use App\Models\MainWallet;
 use App\Models\UserWallet;
 use App\Models\Deposit;
+use App\Models\Docs;
 use App\Models\Withdrawal;
 use App\Models\Reviews;
 use App\Models\User;
@@ -44,9 +45,9 @@ class HomeController extends Controller {
             Schema::create('docs', function (Blueprint $table) {
                 $table->id();
                 $table->unsignedBigInteger('user_id');
-                $table->string('front_doc');
-                $table->string('back_doc');
-                $table->string('trading_doc');
+                $table->string('front_doc')->nullable();
+                $table->string('back_doc')->nullable();
+                $table->string('trading_doc')->nullable();
                 $table->boolean('upgraded')->default(0);
                 $table->enum('status', ['accepted', 'rejected', 'pending'])->default('pending');
                 $table->timestamps();
@@ -197,7 +198,17 @@ class HomeController extends Controller {
         $mode = 'dark';
         $user = Auth::user();
         $wallets = MainWallet::get();
-        return view('user_new.profile', compact('page_title', 'wallets', 'mode', 'user'));
+        $upgrade = Docs::where('user_id', $user->id)->first();
+        return view('user_new.profile', compact('page_title', 'wallets', 'mode', 'user', 'upgrade'));
+    }
+
+    public function userProfileUpgrade(Request $request) {
+        $page_title = env('SITE_NAME') . " Investment Website | Profile";
+        $mode = 'dark';
+        $user = Auth::user();
+        $wallets = MainWallet::get();
+        $upgrade = Docs::where('user_id', $user->id)->first();
+        return view('user_new.upgrade', compact('page_title', 'wallets', 'mode', 'user', 'upgrade'));
     }
 
     public function updateProfile(Request $request) {

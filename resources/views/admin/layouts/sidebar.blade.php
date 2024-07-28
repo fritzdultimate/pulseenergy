@@ -57,6 +57,12 @@
                         <i class="fa fa-arrow-circle-o-right"></i><span class="hide-menu">Child Plans</span>
                     </a> 
                 </li>
+
+                <li>
+                    <a href="/admin/upgrade" aria-expanded="false">
+                        <i class="fa fa-arrow-circle-o-right"></i><span class="hide-menu">KYC</span>
+                    </a> 
+                </li>
                 <li class="nav-label">ACTIONS</li>
                 <li>
                     <a href="/admin/reviews" aria-expanded="false">

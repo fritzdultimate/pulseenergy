@@ -33,7 +33,7 @@
         </div>
         <ul class="nk-nav nav nav-tabs">
             <li class="nav-item">
-            <a class="nav-link" href="#">Personally</a>
+            <a class="nav-link" href="#">Personal</a>
             </li>
         </ul>
         @if ($user->tier === 'one')

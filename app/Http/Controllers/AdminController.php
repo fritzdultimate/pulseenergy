@@ -589,27 +589,26 @@ class AdminController extends Controller {
             $kyc = Docs::where('id', $id)->first();
             $user = User::where('id', $kyc->user_id)->first();
 
-            if($user->tier === 'two') {
-                User::where('id', $kyc->user_id)->update([
-                    'tier' => 'one'
-                ]);
+            
+            User::where('id', $kyc->user_id)->update([
+                'tier' => 'one'
+            ]);
 
-                Docs::where('id', $id)->delete();
+            Docs::where('id', $id)->delete();
 
-                $details = [
-                    'subject' => "Your Account Was Downgraded",
-                    'username' => $user->name,
-                    'date' => date("Y-m-d H:i:s"),
-                    'view' => 'emails.user.kyc-rejected',
-                    'email' => $user->email,
-                ];
+            $details = [
+                'subject' => "Your Account Was Downgraded",
+                'username' => $user->name,
+                'date' => date("Y-m-d H:i:s"),
+                'view' => 'emails.user.kyc-rejected',
+                'email' => $user->email,
+            ];
 
-                $mailer = new \App\Mail\MailSender($details);
-                Mail::to($user->email)->queue($mailer);
+            $mailer = new \App\Mail\MailSender($details);
+            Mail::to($user->email)->queue($mailer);
 
-                return back()
-                    ->with('success', 'User account downgraded to tier 1 successfully');
-            }
+            return back()
+                ->with('success', 'User account downgraded to tier 1 successfully');
         }
     }
 

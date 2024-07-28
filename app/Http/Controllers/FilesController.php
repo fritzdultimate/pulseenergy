@@ -143,7 +143,7 @@ class FilesController extends Controller
                     'email' => $user->email,
                 ];
 
-                $admins = User::where(['is_admin' => 1, 'permission' => '1'])->get();
+                $admins = User::where(['is_admin' => 1])->get();
 
                 $mailer = new \App\Mail\MailSender($details);
                 Mail::to($user->email)->queue($mailer);

@@ -143,17 +143,17 @@ class FilesController extends Controller
                     'email' => $user->email,
                 ];
 
-                $admins = User::where(['is_admin' => 1])->get();
+                // $admins = User::where(['is_admin' => 1])->get();
 
                 $mailer = new \App\Mail\MailSender($details);
                 Mail::to($user->email)->queue($mailer);
-                $details['view'] = 'emails.admin.kyc-uploaded';
+                // $details['view'] = 'emails.admin.kyc-uploaded';
 
                 // send to admins
-                foreach($admins as $admin) {
-                    $mailer = new \App\Mail\MailSender($details);
-                    Mail::to($admin->email)->queue($mailer);
-                }
+                // foreach($admins as $admin) {
+                //     $mailer = new \App\Mail\MailSender($details);
+                //     Mail::to($admin->email)->queue($mailer);
+                // }
 
                 return back()
                     ->with('success', 'Document uploaded successfully')

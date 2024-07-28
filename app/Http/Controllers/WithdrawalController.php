@@ -58,7 +58,7 @@ class WithdrawalController extends Controller
             }
 
             $limit = Limits::first();
-            if($request->amount > $limit->tier_withdrawal_limit) {
+            if($request->amount > $limit->tier_withdrawal_limit && $user->tier == 'one') {
                 return back()->with('error', 'Please upgrade your account and try again');
             }
             

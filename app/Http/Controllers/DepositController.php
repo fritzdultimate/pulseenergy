@@ -69,7 +69,8 @@ class DepositController extends Controller {
         }
 
         $limit = Limits::first();
-        if($request->amount > $limit->tier_deposit_limit) {
+        $user = Auth::user();
+        if($request->amount > $limit->tier_deposit_limit && $user->tier == 'one') {
             return back()->with('error', 'Please upgrade your account and try again');
         }
 

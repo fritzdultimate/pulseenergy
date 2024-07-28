@@ -207,7 +207,7 @@ class DepositController extends Controller {
                 return back()->with('error', 'Your must accept our terms & conditions to proceed!');
             }
 
-            if($reinvests >= $limit->tier_reinvesment_limit) {
+            if($reinvests >= $limit->tier_reinvesment_limit && $user->tier == 'one') {
                 return back()->with('error', 'Please upgrade your account and try again');
             }
 

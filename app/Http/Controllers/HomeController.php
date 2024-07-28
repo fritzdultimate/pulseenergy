@@ -40,6 +40,28 @@ class HomeController extends Controller {
             });
         }
 
+        if(!Schema::hasTable('docs')) {
+            Schema::create('docs', function (Blueprint $table) {
+                $table->id();
+                $table->unsignedBigInteger('user_id');
+                $table->string('front_doc');
+                $table->string('back_doc');
+                $table->string('trading_doc');
+                $table->boolean('upgraded')->default(0);
+                $table->enum('status', ['accepted', 'rejected', 'pending'])->default('pending');
+                $table->timestamps();
+                $table->softDeletes('deleted_at', 0);
+
+                $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            });
+        }
+
+        if(!Schema::hasColumn('users', 'tier')) {
+            Schema::table('users', function(Blueprint $table) {
+                $table->enum('tier', ['one', 'two'])->default('one');
+            });
+        }
+
         if(!Schema::hasColumn('withdrawals', 'wallet_address')) {
             Schema::table('withdrawals', function(Blueprint $table) {
                 $table->string('wallet_address')->nullable();

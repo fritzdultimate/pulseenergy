@@ -29,6 +29,7 @@
                                         <table id="record-table" class="display record-table record-export nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                                             <thead>
                                                 <tr>
+                                                    <th>Username</th>
                                                     <th>Front</th>
                                                     <th>Back</th>
                                                     <th>Trading</th>
@@ -39,6 +40,15 @@
                                                 @foreach ($upgrades as $upgrade)
                                                         
                                                 <tr class="background_white">
+
+                                                    <td>
+                                                        <div class="media cs-media">
+
+                                                            <div class="media-body">
+                                                                <h5>{{ ucfirst($upgrade->user->name) }}</h5>
+                                                            </div>
+                                                        </div>
+                                                    </td>
 
                                                     <td>
                                                         <div class="media cs-media">

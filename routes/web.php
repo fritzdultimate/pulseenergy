@@ -109,9 +109,12 @@ Route::prefix('admin')->middleware(['login', 'admin'])->group(function(){
    
    
     Route::get('/upgrade', [App\Http\Controllers\AdminController::class, 'kyc']);
+    Route::get('/limit', [App\Http\Controllers\AdminController::class, 'limit']);
 
     Route::post('/upgrade/approve', [App\Http\Controllers\AdminController::class, 'kycUpgrade']);
     Route::post('/upgrade/reject', [App\Http\Controllers\AdminController::class, 'kycDowngrade']);
+
+    Route::post('/update/limit', [App\Http\Controllers\AdminController::class, 'limitUpdate']);
     
     Route::match(['get', 'post'], '/plans/parent', [App\Http\Controllers\ParentInvestmentPlanController::class, 'index']);
     Route::match(['get', 'post'], '/plans/child', [App\Http\Controllers\ChildInvestmentPlanController::class, 'index']);

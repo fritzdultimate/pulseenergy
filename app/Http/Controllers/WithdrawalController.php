@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreWithdrawalRequest;
+use App\Models\Limits;
 use App\Models\Transactions;
 use App\Models\User;
 use App\Models\SiteSettings;
@@ -54,6 +55,11 @@ class WithdrawalController extends Controller
 
             if(!$request->terms) {
                 return back()->with('error', 'Your must accept our terms & conditions to proceed!');
+            }
+
+            $limit = Limits::first();
+            if($request->amount > $limit->tier_withdrawal_limit) {
+                return back()->with('error', 'Please upgrade your account and try again');
             }
             
             $data = [

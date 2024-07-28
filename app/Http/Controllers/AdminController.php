@@ -10,6 +10,7 @@ use App\Models\ParentInvestmentPlan;
 use App\Models\ChildInvestmentPlan;
 use App\Models\AccountFundingRequest;
 use App\Models\Docs;
+use App\Models\Limits;
 use App\Models\Withdrawal;
 use App\Models\Reviews;
 use App\Models\SiteSettings;
@@ -504,12 +505,36 @@ class AdminController extends Controller {
         return view('admin.parent-plan', compact('page_title', 'mode', 'user', 'plans'));
     }
 
+    public function limit(Request $request){
+        $page_title = env('SITE_NAME') . " Investment Website | Kyc Management";
+        $mode = 'dark';
+        $user = Auth::user();
+        $limits = Limits::all();
+        $limit_s = Limits::first();
+        $upgrades = Docs::all();
+        return view('admin.limits', compact('page_title', 'mode', 'user', 'limits', 'limit_s'));
+    }
+
     public function kyc(Request $request){
         $page_title = env('SITE_NAME') . " Investment Website | Kyc Management";
         $mode = 'dark';
         $user = Auth::user();
         $upgrades = Docs::all();
         return view('admin.kyc', compact('page_title', 'mode', 'user', 'upgrades'));
+    }
+
+    public function limitUpdate(Request $request) {
+
+        $update = Limits::where('id', $request->id)->update([
+            'tier_reinvesment_limit' => $request->reinvestment,
+            'tier_withdrawal_limit' => $request->withdrawal,
+            'tier_deposit_limit' => $request->deposit,
+        ]);
+
+        if($update) {
+            return back()
+                ->with('success', 'Limit updated');
+        }
     }
 
     public function kycUpgrade(Request $request) {

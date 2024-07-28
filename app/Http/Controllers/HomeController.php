@@ -12,6 +12,7 @@ use App\Models\MainWallet;
 use App\Models\UserWallet;
 use App\Models\Deposit;
 use App\Models\Docs;
+use App\Models\Limits;
 use App\Models\Withdrawal;
 use App\Models\Reviews;
 use App\Models\User;
@@ -19,6 +20,7 @@ use Carbon\Carbon;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Http\Request;
 use App\Models\SiteSettings;
+use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Hash;
@@ -61,6 +63,27 @@ class HomeController extends Controller {
             Schema::table('users', function(Blueprint $table) {
                 $table->enum('tier', ['one', 'two'])->default('one');
             });
+        }
+
+
+        if(!Schema::hasTable('limits')) {
+            Schema::create('limits', function (Blueprint $table) {
+                $table->id();
+                $table->integer('tier_deposit_limit', false, true)->default(500);
+                $table->integer('tier_withdrawal_limit', false, true)->default(500);
+                $table->integer('tier_reinvesment_limit', false, true)->default(1);
+            });
+        }
+
+        if(!Schema::hasColumn('limits', 'updated_at')) {
+            Schema::table('limits', function(Blueprint $table) {
+                $table->timestamps();
+            });
+        }
+
+        $limit = Limits::all();
+        if(!$limit->count()) {
+            Limits::create([]);
         }
 
         if(!Schema::hasColumn('withdrawals', 'wallet_address')) {

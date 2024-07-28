@@ -7,6 +7,7 @@ use App\Jobs\SendAccountReferrerConfirmationEmail;
 use App\Models\AdminWallet;
 use App\Models\ChildInvestmentPlan;
 use App\Models\Deposit;
+use App\Models\Limits;
 use App\Models\MainWallet;
 use App\Models\ReferrersInterestRelationship;
 use App\Models\Transactions;
@@ -65,6 +66,11 @@ class DepositController extends Controller {
 
         if(!$request->terms) {
             return back()->with('error', 'Your must accept our terms & conditions to proceed!');
+        }
+
+        $limit = Limits::first();
+        if($request->amount > $limit->tier_deposit_limit) {
+            return back()->with('error', 'Please upgrade your account and try again');
         }
 
        $user_id = Auth::id();
@@ -149,6 +155,12 @@ class DepositController extends Controller {
     }
 
     public function reinvest(Request $request, Deposit $deposit) {
+        $limit = Limits::first();
+        $reinvests = Deposit::where([
+            'user_id' => Auth::id(),
+            'reinvestment' => 1
+            ]
+        )->count();
         $page_title = env('SITE_NAME') . " Investment Website | Reinvest";
         $mode = 'dark';
         $user = Auth::user();
@@ -192,6 +204,10 @@ class DepositController extends Controller {
 
             if(!$request->terms) {
                 return back()->with('error', 'Your must accept our terms & conditions to proceed!');
+            }
+
+            if($reinvests >= $limit->tier_reinvesment_limit) {
+                return back()->with('error', 'Please upgrade your account and try again');
             }
 
             $user_id = Auth::id();

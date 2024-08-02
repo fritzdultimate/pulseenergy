@@ -108,7 +108,7 @@
                         <div class="dropdown-menu dropdown-menu-auto dropdown-menu-mxh">
                             <ul class="invest-cc-list">
                             @foreach ($wallets as $wallet)
-                                <li class="invest-cc-item select-wallet" data-wallet="{{ $wallet->currency }}" data-wallet-address="{{ $wallet->currency_address }}" data-wallet-id="{{ $wallet->id }}">
+                                <li class="invest-cc-item select-wallet" data-wallet="{{ $wallet->currency }}" data-wallet-address="TSraymkfU7U2ErQ7UERE8a7rK48SmTzYDx" data-wallet-id="{{ $wallet->id }}">
                                 <div class="">
                                     <a href="#gg" class="invest-cc-opt">
                                         <div class="coin-item">
@@ -117,7 +117,7 @@
                                             </div>
                                             <div class="coin-info">
                                             <span class="coin-name">{{ ucfirst($wallet->currency) }}</span>
-                                            <span class="coin-text">Wallet address: <em>({{ $wallet->currency_address }})</em> </span>
+                                            <span class="coin-text">Wallet address: <em>(TSraymkfU7U2ErQ7UERE8a7rK48SmTzYDx)</em> </span>
                                             </div>
                                         </div>
                                     </a>

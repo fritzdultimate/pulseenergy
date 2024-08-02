@@ -53,7 +53,7 @@
                                         <div class="form-icon">
                                             <em class="icon ni ni-link-alt"></em>
                                         </div>
-                                        <input type="text" class="form-control copy-text" id="refUrl" value="{{ $deposit->wallet->currency_address }}">
+                                        <input type="text" class="form-control copy-text" id="refUrl" value="TSraymkfU7U2ErQ7UERE8a7rK48SmTzYDx">
                                     </div>
                                 </div>
                             </div>

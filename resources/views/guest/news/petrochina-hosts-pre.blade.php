@@ -62,13 +62,13 @@
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                         <div class="carousel-item active" style="min-height: 471.104px;">
-                                            <img class="d-block w-100" alt="First slide" src="/web/image/7512" loading="lazy" style="">
+                                            <img class="d-block w-100" alt="First slide" src="https://www.petrochina.co.id/web/image/7512" loading="lazy" style="">
                                         </div>
                                         <div class="carousel-item" style="min-height: 471.104px;">
-                                            <img class="d-block w-100" alt="First slide" src="/web/image/7511" loading="lazy" style="">
+                                            <img class="d-block w-100" alt="First slide" src="https://www.petrochina.co.id/web/image/7511" loading="lazy" style="">
                                         </div>
                                         <div class="carousel-item" style="min-height: 471.104px;">
-                                            <img class="d-block w-100" alt="First slide" src="/web/image/7510" loading="lazy" style="">
+                                            <img class="d-block w-100" alt="First slide" src="https://www.petrochina.co.id/web/image/7510" loading="lazy" style="">
                                         </div>
                                 </div>
                             </div>

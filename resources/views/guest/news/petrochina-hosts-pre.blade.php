@@ -155,12 +155,12 @@ officials. </p><p>
                     <div class="d-flex text-end py-4">
                         <div class="flex-grow-1 pe-3">
                             <span class="bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-1">Read Next</span>
-                            <a href="/blog/company-news-5/petrochina-signs-3-gas-sales-agreement-to-support-domestic-consumption-3681" title="Read nextPetroChina Signs 3 Gas Sales Agreement to Support Domestic Consumption">
+                            <a href="/gas-sales-agreement" title="Read nextPetroChina Signs 3 Gas Sales Agreement to Support Domestic Consumption">
                                 <div id="o_wblog_post_name" placeholder="Blog Post Title" class="h2" data-blog-id="3681">{{ env('APP_NAME') }} Signs 3 Gas Sales Agreement to Support Domestic Consumption</div>
                                 
                             </a>
                         </div>
-                        <a class="w-25" href="/blog/company-news-5/petrochina-signs-3-gas-sales-agreement-to-support-domestic-consumption-3681" title="Read nextPetroChina Signs 3 Gas Sales Agreement to Support Domestic Consumption">
+                        <a class="w-25" href="/gas-sales-agreement" title="Read nextPetroChina Signs 3 Gas Sales Agreement to Support Domestic Consumption">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3681" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   rounded shadow-sm overflow-hidden h-100">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/7504?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     

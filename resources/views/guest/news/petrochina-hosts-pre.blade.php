@@ -123,19 +123,7 @@ officials. </p><p>
 </div>
     </div>
     <div class="oe_structure" id="oe_structure_blog_post_sidebar_2"></div>
-    <div class="o_wblog_sidebar_block pb-5">
-        <h6 class="text-uppercase pb-3 mb-4 border-bottom fw-bold">Share this post</h6>
 
-        <div class="o_wblog_social_links d-flex flex-wrap mx-n1 o_not_editable">
-            <a href="#" aria-label="Facebook" title="Share on Facebook" class="o_facebook bg-100 border mx-1 mb-2 rounded-circle d-flex align-items-center justify-content-center text-decoration-none"><i class="fa fa-facebook-square text-facebook"></i></a>
-            <a href="#" aria-label="Twitter" title="Share on Twitter" class="o_twitter bg-100 border mx-1 mb-2 rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
-    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">              
-      <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
-    </svg>
-  </a>
-<a href="#" aria-label="LinkedIn" title="Share on LinkedIn" class="o_linkedin bg-100 border mx-1 mb-2 rounded-circle d-flex align-items-center justify-content-center text-decoration-none"><i class="fa fa-linkedin text-linkedin" aria-label="LinkedIn" title="LinkedIn"></i></a>
-        </div>
-    </div>
 
     <div class="oe_structure" id="oe_structure_blog_post_sidebar_3"></div>
     <div class="o_wblog_sidebar_block pb-5">

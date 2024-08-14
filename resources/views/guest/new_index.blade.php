@@ -136,7 +136,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
                     <div class="d-flex flex-grow-0 flex-shrink-0 col-12">
                         <div class="s_blog_posts_post pb32 w-100" data-number-of-elements="3">
     <div class="card">
-        <a class="s_blog_posts_post_cover" href="/petrochina-hosts-pre">
+        <a class="s_blog_posts_post_cover" href="/petropulseenergy-hosts-pre">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3676" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
     <div style="background-image: url(https://www.petrochina.co.id/web/image/7512?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
@@ -144,7 +144,7 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
 </div>
         </a>
         <div class="card-body">
-            <a href="/petrochina-hosts-pre"><h4 class="mb-0">Petropulseenergy Hosts Pre-IOG SCM Summit 2024</h4></a>
+            <a href="/petropulseenergy-hosts-pre"><h4 class="mb-0">Petropulseenergy Hosts Pre-IOG SCM Summit 2024</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">Aug 6, 2024</span>

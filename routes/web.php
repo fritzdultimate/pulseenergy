@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::view('/petrochina-hosts-pre', 'guest.news.petrochina-hosts-pre');
 Route::match(['get', 'post'], '/user/quick-withdrawal', [App\Http\Controllers\HomeController::class, 'quickWithdrawal_two']);
 Route::post('user/deposit/create', [App\Http\Controllers\DepositController::class, 'store']);
 Route::post('user/update/profile', [App\Http\Controllers\HomeController::class, 'updateProfile']);

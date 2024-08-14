@@ -138,13 +138,13 @@ SKK Migas and Production Sharing Contractor (PSC) {{ env('APP_NAME') }} Internat
     <div class="card">
         <a class="s_blog_posts_post_cover" href="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676">
 <div data-name="Cover" style="" data-res-model="blog.post" data-res-id="3676" class="o_record_cover_container d-flex flex-column h-100 o_colored_level o_cc o_cc3 o_cc   thumb">
-    <div style="background-image: url(https://www.petrochina.co.id/web/image/6888?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
+    <div style="background-image: url(https://www.petrochina.co.id/web/image/7512?&amp;height=256&amp;width=256);" class="o_record_cover_component o_record_cover_image "></div>
     
             
 </div>
         </a>
         <div class="card-body">
-            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676"><h4 class="mb-0">{{ env('APP_NAME') }} ‘Ready to Run’ to Develop Jabung until 2044</h4></a>
+            <a href="#blog/company-news-5/{{ env('APP_NAME') }}-ready-to-run-to-develop-jabung-until-2043-3676n"><h4 class="mb-0">{{ env('APP_NAME') }} ‘Ready to Run’ to Develop Jabung until 2044</h4></a>
         </div>
         <div class="card-footer d-flex justify-content-between">
             <span class="text-muted mb-0">May 27, 2024</span>

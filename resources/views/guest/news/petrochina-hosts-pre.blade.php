@@ -11,9 +11,6 @@
                     <div id="title" class="blog_header o_wblog_regular_cover_container o_wblog_read_with_sidebar mx-auto">
 
                         <nav aria-label="breadcrumb" class="breadcrumb flex-nowrap py-0 px-0 css_editable_mode_hidden mt-4 mb-3 bg-transparent">
-                            <li class="breadcrumb-item" data-oe-model="ir.ui.view" data-oe-field="arch" data-oe-xpath="/t[1]/nav[1]/li[1]" data-oe-id="3682">
-                                <a href="#">All Blogs</a>
-                            </li>
                             <li class="breadcrumb-item">
                                 <a href="#">
                                     <span>Company News</span>
